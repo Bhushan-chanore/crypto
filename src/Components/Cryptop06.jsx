@@ -246,23 +246,36 @@ function Cryptop06() {
                     <div className="self-stretch flex flex-col items-start justify-start gap-[0.694rem] max-w-full">
                         <div className="w-[1264px] flex flex-row items-end justify-between max-w-full gap-[6.25rem] lg:flex-wrap">
                             <div className="w-[635px] flex sm:flex-row flex-col items-start justify-start gap-[1.875rem] min-w-[635px] max-w-full lg:flex-1 mq750:flex-wrap mq750:min-w-full">
-                                <div className="flex-1 rounded-10xs bg-slateblue flex flex-col items-start justify-start pt-[2rem] pb-[8.875rem] pr-[1.25rem] pl-[2.5rem] box-border gap-[0.313rem] min-w-[227px] min-h-[232px]">
+                                <div className="relative flex-1 rounded-10xs bg-slateblue flex flex-col items-start justify-start pt-[2rem] pb-[8.875rem] pr-[1.25rem] pl-[2.5rem] box-border gap-[0.313rem] min-w-[227px] min-h-[232px] hover:bg-white hover:text-slateblue">
                                     <div className="relative tracking-[0.26px] leading-[1.5rem] text-[1rem] font-medium">
                                         <span>{`$10,083.035 `}</span>
                                         <span className="text-tomato">-30.94YTD</span>
                                     </div>
-                                    <h1 className="m-0 relative text-[1.688rem] tracking-[-1.08px] leading-[1.806rem] font-bold font-inherit text-white inline-block min-w-[93.8px] mq450:text-[1.375rem] mq450:leading-[1.438rem]">
+                                    <h1 className="m-0 relative text-[1.688rem] tracking-[-1.08px] leading-[1.806rem] font-bold font-inherit inline-block min-w-[93.8px] mq450:text-[1.375rem] mq450:leading-[1.438rem]">
                                         Bitcoin
                                     </h1>
+                                    {/* Button */}
+                                    <button className="absolute bottom-5 left-5 text-[1rem] py-[0.5rem] px-[1rem] bg-tomato text-white rounded-3xs opacity-0 transition-opacity duration-300 ease-in-out hover:opacity-100">
+                                        Read More
+                                    </button>
+                                    {/* Invisible hover area */}
+                                    <div className="absolute inset-0 opacity-0 hover:opacity-100"></div>
                                 </div>
-                                <div className="flex-1 rounded-10xs bg-slateblue flex flex-col items-start justify-start pt-[2rem] pb-[8.875rem] pr-[1.25rem] pl-[2.5rem] box-border gap-[0.313rem] min-w-[227px] min-h-[232px] z-[5]">
-                                    <div className="relative tracking-[0.26px] text-[1rem] leading-[1.5rem] font-medium">
+
+                                <div className="relative flex-1 rounded-10xs bg-slateblue flex flex-col items-start justify-start pt-[2rem] pb-[8.875rem] pr-[1.25rem] pl-[2.5rem] box-border gap-[0.313rem] min-w-[227px] min-h-[232px] hover:bg-white hover:text-slateblue">
+                                    <div className="relative tracking-[0.26px] leading-[1.5rem] text-[1rem] font-medium">
                                         <span>{`$10,083.035 `}</span>
                                         <span className="text-tomato">-30.94YTD</span>
                                     </div>
-                                    <h1 className="m-0 relative text-[1.688rem] tracking-[-1.08px] leading-[1.806rem] font-bold font-inherit text-white mq450:text-[1.375rem] mq450:leading-[1.438rem]">
-                                        Ethereum
+                                    <h1 className="m-0 relative text-[1.688rem] tracking-[-1.08px] leading-[1.806rem] font-bold font-inherit inline-block min-w-[93.8px] mq450:text-[1.375rem] mq450:leading-[1.438rem]">
+                                        Etherum
                                     </h1>
+                                    {/* Button */}
+                                    <button className="absolute bottom-5 left-5 text-[1rem] py-[0.5rem] px-[1rem] bg-tomato text-white rounded-3xs opacity-0 transition-opacity duration-300 ease-in-out hover:opacity-100">
+                                        Read More
+                                    </button>
+                                    {/* Invisible hover area */}
+                                    <div className="absolute inset-0 opacity-0 hover:opacity-100"></div>
                                 </div>
                             </div>
                             <div className="flex flex-col items-start justify-end pt-[0rem] px-[0rem] pb-[0.744rem] box-border min-w-[516.3999999999978px] max-w-full text-[3.125rem] text-white lg:flex-1 mq750:min-w-full ">
@@ -292,24 +305,36 @@ function Cryptop06() {
                         <div className="w-[1233.8px] flex flex-row items-start justify-between pt-[0rem] px-[0rem] pb-[1.175rem] box-border max-w-full gap-[6.25rem] lg:flex-wrap">
                             <div className="w-[635px] flex flex-col items-start justify-start pt-[1.181rem] px-[0rem] pb-[0rem] box-border min-w-[635px] max-w-full lg:flex-1 mq750:min-w-full">
                                 <div className="self-stretch flex sm:flex-row flex-col items-start justify-start gap-[1.875rem] mq750:flex-wrap">
-                                    <div className="flex-1 rounded-10xs bg-slateblue flex flex-col items-start justify-start pt-[2rem] pb-[8.875rem] pr-[1.25rem] pl-[2.5rem] box-border gap-[0.313rem] min-w-[227px] min-h-[232px]">
-                                        <div className="relative tracking-[0.26px] text-[1rem] leading-[1.5rem] font-medium">
-                                            <span>{`$10,083.035 `}</span>
-                                            <span className="text-tomato">-30.94YTD</span>
-                                        </div>
-                                        <h1 className="m-0 relative text-[1.688rem] tracking-[-1.08px] leading-[1.806rem] font-bold font-inherit text-white inline-block min-w-[85px] mq450:text-[1.375rem] mq450:leading-[1.438rem]">
-                                            Ripple
-                                        </h1>
+                                <div className="relative flex-1 rounded-10xs bg-slateblue flex flex-col items-start justify-start pt-[2rem] pb-[8.875rem] pr-[1.25rem] pl-[2.5rem] box-border gap-[0.313rem] min-w-[227px] min-h-[232px] hover:bg-white hover:text-slateblue">
+                                    <div className="relative tracking-[0.26px] leading-[1.5rem] text-[1rem] font-medium">
+                                        <span>{`$10,083.035 `}</span>
+                                        <span className="text-tomato">-30.94YTD</span>
                                     </div>
-                                    <div className="flex-1 rounded-10xs bg-slateblue flex flex-col items-start justify-start pt-[2rem] pb-[8.875rem] pr-[1.25rem] pl-[2.5rem] box-border gap-[0.313rem] min-w-[227px] min-h-[232px] z-[5]">
-                                        <div className="relative tracking-[0.26px] text-[1rem] leading-[1.5rem] font-medium">
-                                            <span>{`$10,083.035 `}</span>
-                                            <span className="text-tomato">-30.94YTD</span>
-                                        </div>
-                                        <h1 className="m-0 relative text-[1.688rem] tracking-[-1.08px] leading-[1.806rem] font-bold font-inherit text-white inline-block min-w-[68.8px] mq450:text-[1.375rem] mq450:leading-[1.438rem]">
-                                            Dash
-                                        </h1>
+                                    <h1 className="m-0 relative text-[1.688rem] tracking-[-1.08px] leading-[1.806rem] font-bold font-inherit inline-block min-w-[93.8px] mq450:text-[1.375rem] mq450:leading-[1.438rem]">
+                                        Ripple
+                                    </h1>
+                                    {/* Button */}
+                                    <button className="absolute bottom-5 left-5 text-[1rem] py-[0.5rem] px-[1rem] bg-tomato text-white rounded-3xs opacity-0 transition-opacity duration-300 ease-in-out hover:opacity-100">
+                                        Read More
+                                    </button>
+                                    {/* Invisible hover area */}
+                                    <div className="absolute inset-0 opacity-0 hover:opacity-100"></div>
+                                </div>
+                                <div className="relative flex-1 rounded-10xs bg-slateblue flex flex-col items-start justify-start pt-[2rem] pb-[8.875rem] pr-[1.25rem] pl-[2.5rem] box-border gap-[0.313rem] min-w-[227px] min-h-[232px] hover:bg-white hover:text-slateblue">
+                                    <div className="relative tracking-[0.26px] leading-[1.5rem] text-[1rem] font-medium">
+                                        <span>{`$10,083.035 `}</span>
+                                        <span className="text-tomato">-30.94YTD</span>
                                     </div>
+                                    <h1 className="m-0 relative text-[1.688rem] tracking-[-1.08px] leading-[1.806rem] font-bold font-inherit inline-block min-w-[93.8px] mq450:text-[1.375rem] mq450:leading-[1.438rem]">
+                                        Dash
+                                    </h1>
+                                    {/* Button */}
+                                    <button className="absolute bottom-5 left-5 text-[1rem] py-[0.5rem] px-[1rem] bg-tomato text-white rounded-3xs  opacity-0 transition-opacity duration-300 ease-in-out hover:opacity-50">
+                                        Read More
+                                    </button>
+                                    {/* Invisible hover area */}
+                                    {/* <div className="absolute inset-0 opacity-0 hover:opacity-100"></div> */}
+                                </div>
                                 </div>
                             </div>
                             <div className="flex flex-col items-start justify-start gap-[2.719rem] min-w-[486.1999999999971px] max-w-full text-[0.938rem] text-lightsteelblue lg:flex-1 mq750:min-w-full">
@@ -366,7 +391,7 @@ function Cryptop06() {
 
             {/* part9  */}
 
-            <section className="relative  left-[7%] w-[1340px] flex flex-row items-end justify-start sm:gap-[1.188rem] max-w-full text-center text-[3.75rem] text-white font-montserrat box-border bg-[url('https://innovio.qodeinteractive.com/wp-content/uploads/2018/10/h4-backround-img-1.png')] bg-cover bg-no-repeat bg-[top] ">
+            <section className="relative sm:left-[6%] left-[4%] w-[1340px] flex flex-row items-end justify-start sm:gap-[1.188rem] max-w-full text-center text-[3.75rem] text-white font-montserrat box-border bg-[url('https://innovio.qodeinteractive.com/wp-content/uploads/2018/10/h4-backround-img-1.png')] bg-cover bg-no-repeat bg-[top] ">
 
                 <div className="flex-1 flex flex-col items-start justify-end pt-[0rem] px-[0rem] pb-[1.563rem] box-border max-w-[calc(100%_-_40px)]">
 
@@ -378,7 +403,7 @@ function Cryptop06() {
                             {/* <div className="absolute top-[0rem] left-[26.769rem] bg-mediumslateblue-200 h-[827.6px] flex flex-row items-end justify-start pt-[12.313rem] px-[0rem] pb-[12.3rem] box-border">
                                 <div className="ml-[-0.125rem] h-[5px] w-[5px] relative rounded-8xs bg-white shrink-0 [debug_commit:f6aba90]" />
                             </div> */}
-                            <h1 className="m-0 absolute top-[16.194rem] left-[0rem] text-inherit tracking-[-2.4px] leading-[4.05rem] font-bold font-inherit flex items-center w-[475.4px] h-[129.6px] z-[1] mq450:text-[2.25rem] mq450:leading-[2.438rem] mq1050:text-[3rem] mq1050:leading-[3.25rem]">
+                            <h1 className="m-0 absolute top-[16.194rem] left-[-2.5rem] text-inherit tracking-[-2.4px] leading-[4.05rem] font-bold font-inherit flex items-center w-[475.4px] h-[129.6px] z-[1] mq450:text-[2.25rem] mq450:leading-[2.438rem] mq1050:text-[3rem] mq1050:leading-[3.25rem]">
                                 <span className="w-full">
                                     <p className="m-0">Mining platform</p>
                                     <p className="m-0">of the future!</p>
@@ -495,7 +520,7 @@ function InputCluster({ item }) {
     return (
         <div className="self-stretch flex flex-row items-start justify-start gap-[2rem] text-left text-[1.688rem] text-white font-montserrat mq450:flex-wrap">
             <img
-                className="h-[78px] w-[70px] relative overflow-hidden shrink-0 object-cover"
+                className="h-[78px] w-[70px] relative overflow-hidden shrink-0 object-cover hover:transform hover:translate-y-[-10px] transition-transform duration-250 ease-in-out"
                 loading="lazy"
                 alt=""
                 src={item.img}

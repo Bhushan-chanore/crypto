@@ -1,7 +1,4 @@
-import { useState, useEffect } from 'react';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/blur.css'; // Import the desired effect CSS
-
+import React from 'react'
 import img2 from "../Images/img2.png"
 import robot from "../Images/robot.png"
 import floor from "../Images/floor.png"
@@ -19,145 +16,134 @@ import robo4 from "../Images/robo4.png"
 import robo5 from "../Images/robo5.png"
 import bit from "../Images/bit.png"
 function Hero() {
-
-    const [isLoaded, setIsLoaded] = useState(false);
-
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            setIsLoaded(true);
-        }, 3000); // 3000 milliseconds = 3 seconds
-
-        return () => clearTimeout(timer);
-    }, []);
-
     return (
         <div>
 
-            <div style={{ width: "400px", height: "400px", display: "flex", flexWrap: "wrap" }}>
+            <div style={{ width: "200px", height: "200px", display: "flex", justifyContent:"center" , alignItems:"center" , flexWrap: "wrap" }}>
 
-                <div className="h-[500px] w-[650px] sm:h-[700px] sm:w-[850px] absolute !m-[0] right-[0.125rem] sm:bottom-[1.125rem] bottom-[-10rem] overflow-hidden" >
+                <div className="h-[400px] w-[430px] sm:h-[550px] sm:w-[600px] absolute !m-[0] right-[0.125rem] sm:bottom-[1.125rem] bottom-[-10rem] overflow-hidden" >
                     {/* <img
                         className="absolute top-[51.938rem] left-[2.938rem] w-[39px] h-[59px] overflow-hidden object-cover z-[1]"
                         loading="lazy"
                         alt=""
                         src="../Images/rslayerwrap--rsl--yer--h8revimg4png@2x.png"
                     /> */}
-                    {isLoaded && (
-                <LazyLoadImage
-                    className="absolute top-[0.188rem] left-[11.438rem] w-[98px] h-[117px] overflow-hidden object-cover z-[2]"
-                    loading="lazy"
-                    alt=""
-                    src={img2}
-                />
-            )}
                     <img
-                        className="absolute top-[3.25rem] left-[6.063rem] w-[98px] h-[117px] overflow-hidden object-cover z-[3]"
+                        className="absolute top-[0.099rem] left-[5.719rem] w-[46px] h-[58.5px] overflow-hidden object-cover z-[2]"
+                        loading="lazy"
                         alt=""
                         src={img2}
                     />
                     <img
-                        className="absolute top-[0rem] left-[35.25rem] w-[98px] h-[117px] overflow-hidden object-cover z-[2]"
+                        className="absolute top-[1.625rem] left-[3.031rem] w-[46px] h-[58.5px] overflow-hidden object-cover z-[3]"
                         alt=""
                         src={img2}
                     />
                     <img
-                        className="absolute top-[3.188rem] left-[40.5rem] w-[98px] h-[117px] overflow-hidden object-cover z-[3]"
+                        className="absolute top-[0rem] left-[17.625rem] w-[46px] h-[58.5px] overflow-hidden object-cover z-[2]"
                         alt=""
                         src={img2}
                     />
                     <img
-                        className="bit absolute top-[2.7rem] left-[19.375rem] w-[202px] h-[219px] overflow-hidden object-cover z-[8]"
+                        className="absolute top-[1.625rem] left-[20.25rem] w-[46px] h-[58.5px] overflow-hidden object-cover z-[3]"
+                        alt=""
+                        src={img2}
+                    />
+                    <img
+                        className="bit absolute top-[1.35rem] left-[9.6875rem] w-[101px] h-[109.5px] overflow-hidden object-cover z-[8]"
                         alt=""
                         src={bit}
                     />
                     <img
-                        className="absolute top-[30.688rem] left-[46.438rem] w-[138px] h-[380px] overflow-hidden object-cover z-[9]"
+                        className="absolute top-[15.344rem] left-[23.219rem] w-[69px] h-[190px] overflow-hidden object-cover z-[9]"
                         loading="lazy"
                         alt=""
                         src={robot}
                     />
-                    <div className="absolute top-[4.563rem] left-[0rem] w-[841px] h-[642px]">
+                    <div className="absolute top-[2.2815rem] left-[0rem] w-[420.5px] h-[321px]">
                         <img
                             className="absolute top-[0rem] left-[0rem] w-full h-full overflow-hidden object-cover"
                             alt=""
                             src={floor}
                         />
                         <img
-                            className="absolute top-[1.813rem] left-[0.75rem] w-[98px] h-[117px] overflow-hidden object-cover z-[4]"
+                            className="absolute top-[0.9065rem] left-[0.375rem] w-[46px] h-[58.5px] overflow-hidden object-cover z-[4]"
                             alt=""
                             src={img3}
                         />
                         <img
-                            className="absolute top-[0.125rem] left-[5.375rem] w-[285px] h-[242px] overflow-hidden object-cover z-[5]"
+                            className="absolute top-[0.0625rem] left-[2.6875rem] w-[142.5px] h-[121px] overflow-hidden object-cover z-[5]"
                             alt=""
                             src={wire1}
                         />
                         <img
-                            className="absolute top-[1.688rem] left-[45.938rem] w-[98px] h-[117px] overflow-hidden object-cover z-[4]"
+                            className="absolute top-[0.844rem] left-[22.969rem] w-[46px] h-[58.5px] overflow-hidden object-cover z-[4]"
                             alt=""
                             src={img3}
                         />
                         <img
-                            className="absolute top-[0.125rem] left-[29.625rem] w-[285px] h-[242px] overflow-hidden object-cover z-[5]"
+                            className="absolute top-[0.0625rem] left-[14.812rem] w-[142.5px] h-[121px] overflow-hidden object-cover z-[5]"
                             alt=""
                             src={wire2}
                         />
-                        <div className="absolute top-[6.313rem] left-[9.938rem] w-[527px] h-[339px]">
+                        <div className="absolute top-[3.1565rem] left-[4.969rem] w-[263.5px] h-[169.5px]">
                             <img
                                 className="absolute top-[0rem] left-[0rem] w-full h-full overflow-hidden object-cover"
                                 alt=""
                                 src={floor2}
                             />
                             <img
-                                className="absolute top-[2.875rem] left-[8.688rem] w-[250px] h-[141px] overflow-hidden object-cover z-[7]"
+                                className="absolute top-[1.4375rem] left-[4.344rem] w-[125px] h-[70.5px] overflow-hidden object-cover z-[7]"
                                 alt=""
                                 src={bitcoin}
                             />
                         </div>
                         <img
-                            className="absolute top-[18.75rem] left-[5.438rem] w-[285px] h-[242px] overflow-hidden object-cover z-[7]"
+                            className="absolute top-[9.375rem] left-[2.719rem] w-[142.5px] h-[121px] overflow-hidden object-cover z-[7]"
                             alt=""
                             src={wire3}
                         />
                         <img
-                            className="absolute top-[24.563rem] left-[0.563rem] w-[98px] h-[117px] overflow-hidden object-cover z-[8]"
+                            className="absolute top-[12.2815rem] left-[0.2815rem] w-[49px] h-[58.5px] overflow-hidden object-cover z-[8]"
+                            alt=""
+                            src={img4}
+                        />
+
+
+                        <img
+                            className="absolute top-[13.844rem] left-[3rem] w-[49px] h-[58.5px] overflow-hidden object-cover z-[9]"
                             alt=""
                             src={img4}
                         />
                         <img
-                            className="absolute top-[27.688rem] left-[6rem] w-[98px] h-[117px] overflow-hidden object-cover z-[9]"
+                            className="absolute top-[15.5rem] left-[5.6565rem] w-[49px] h-[58.5px] overflow-hidden object-cover z-[10]"
                             alt=""
                             src={img4}
                         />
                         <img
-                            className="absolute top-[31rem] left-[11.313rem] w-[98px] h-[117px] overflow-hidden object-cover z-[10]"
-                            alt=""
-                            src={img4}
-                        />
-                        <img
-                            className="absolute top-[27.113rem] left-[32.7rem] w-[138px] h-[166px] overflow-hidden object-cover z-[7]"
+                            className="absolute top-[13.5565rem] left-[16.35rem] w-[69px] h-[83px] overflow-hidden object-cover z-[7]"
                             loading="lazy"
                             alt=""
                             src={robo1}
                         />
                         <img
-                            className="roboleft absolute top-[21.2rem] left-[42.488rem] w-[138px] h-[166px] overflow-hidden object-cover z-[7]"
+                            className="roboleft absolute top-[10.6rem] left-[21.244rem] w-[69px] h-[83px] overflow-hidden object-cover z-[7]"
                             alt=""
                             src={robo2}
                         />
                         <img
-                            className="absolute top-[29.5rem] left-[43.25rem] w-[120px] h-[78px] overflow-hidden object-cover z-[8]"
+                            className="absolute top-[14.75rem] left-[21.625rem] w-[60px] h-[39px] overflow-hidden object-cover z-[8]"
                             alt=""
                             src={robo3}
                         />
                         <img
-                            className="absolute top-[33.413rem] left-[29.088rem] w-[65px] h-[78px] overflow-hidden object-cover z-[8]"
+                            className="absolute top-[16.7065rem] left-[14.544rem] w-[32.5px] h-[39px] overflow-hidden object-cover z-[8]"
                             alt=""
                             src={robo4}
                         />
                     </div>
                     <img
-                        className="absolute top-[25.15rem] left-[50.663rem] w-[65px] h-[78px] overflow-hidden object-cover z-[8]"
+                        className="absolute top-[12.575rem] left-[25.3315rem] w-[32.5px] h-[39px] overflow-hidden object-cover z-[8]"
                         loading="lazy"
                         alt=""
                         src={robo5}

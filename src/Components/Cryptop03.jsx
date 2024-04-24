@@ -16,12 +16,12 @@ function Cryptop03() {
         <div className="flex-1 flex flex-col items-start justify-start pt-[0.938rem] px-[0rem] pb-[0rem] box-border max-w-[calc(100%_-_40px)]">
           <div className="w-[1233.8px] flex flex-col items-end justify-start py-[0rem] pr-[1.25rem] pl-[0rem] box-border gap-[2.688rem] max-w-full">
             <div className="w-[1125px] flex flex-row items-start justify-center py-[0rem] px-[1.25rem] box-border max-w-full">
-              <h1 className="m-0 sm:w-[548px] relative text-inherit tracking-[-2.4px] leading-[4.05rem] font-bold font-inherit flex items-center justify-center shrink-0 z-[2] mq450:text-[2.25rem] mq450:leading-[2.438rem] mq1050:text-[3rem] mq1050:leading-[3.25rem] left-7 sm:left-0">
-                The right solutions
+              <h1 className="m-0 sm:w-[548px] relative sm:text-[3.75rem] text-[3.5rem] tracking-[-2.4px] leading-[4.05rem] font-bold font-inherit  flex items-center justify-center shrink-0 z-[2] mq450:text-[2.25rem] mq450:leading-[2.438rem] mq1050:text-[3rem] mq1050:leading-[3.25rem] left-7 sm:left-0">
+                The right solution
               </h1>
             </div>
             <div className="w-[1166.2px] flex flex-row items-start justify-center py-[0rem] px-[1.25rem] box-border max-w-full text-[1rem]">
-              <div className="w-[593px] text-[1.2rem] flex flex-row flex-wrap sm:flex-nowrap items-start justify-between gap-[1.25rem] max-w-full mq750:flex-wrap mq750:justify-center left-7">
+              <div className="w-[593px] text-[1rem] flex flex-row flex-wrap sm:flex-nowrap items-start justify-between gap-[1.25rem] max-w-full mq750:flex-wrap mq750:justify-center left-7">
                 <CategoryButton category="Technology" isActive={activeCategory === 'Technology'} onClick={handleCategoryClick} />
                 <CategoryButton category="Branding" isActive={activeCategory === 'Branding'} onClick={handleCategoryClick} />
                 <CategoryButton category="Marketing" isActive={activeCategory === 'Marketing'} onClick={handleCategoryClick} />

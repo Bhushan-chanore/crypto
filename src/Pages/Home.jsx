@@ -14,59 +14,66 @@ import Cryptop06 from '../Components/Cryptop06'
 import Cryptop7 from '../Components/Cryptop7'
 function Home() {
     return (
-        <div className='h-[100%]  bg-darkblue-100 overflow-hidden'>
+        <div className='h-[100%] w-[100vw]  bg-darkblue-100 overflow-hidden'>
             <Navbar />
             <ScrollIndicator left="5%" right="auto" ballOffset="15" />
             <ScrollIndicator left="35%" right="auto" ballOffset="30" />
             <ScrollIndicator left="auto" right="35%" ballOffset="12" />
             <ScrollIndicator left="auto" right="5%" ballOffset="20" />
 
-            <div>
-                <h1 className="!m-[0] absolute top-[15%] sm:top-[32.313%] left-[5.375%] text-[5rem] tracking-[-3px] leading-[4.688rem] font-bold font-inherit text-white z-[6] mq450:text-[1.5rem] mq450:leading-[1.875rem] mq1050:text-[2.5rem] mq1050:leading-[2.813rem]">
-                    <p className="m-0">Crypto blockchain</p>
-                    <p className="m-0">revolution is here</p>
-                </h1>
-
-                <h3 className="!m-[0] sm:text-[1.2rem] absolute bottom-[45.188%] left-[5.375%] sm:bottom-[40%]  leading-[1.625rem] font-medium font-inherit z-[1] text-white opacity-80">
-                    <p className="m-0">
-                        Lorem ipsum dolor sit amet, consectetuer adipis cing
-                    </p>
-                    <p className="m-0">diam nonummy nibhie euismod tincidunt utlaoreet.</p>
-                </h3>
-
-                <button className="cursor-pointer py-[1.375rem] pr-[1.938rem] pl-[2.5rem] bg-tomato w-[192.4px] !m-[0] absolute bottom-[37.25%] sm:bottom-[25.25%] left-[5.375%] rounded-3xs box-border overflow-hidden shrink-0 flex flex-row items-end justify-start gap-[0.606rem] z-[1] border-[2px] border-solid border-tomato">
-                    <div className="relative text-[0.875rem] tracking-[0.42px] leading-[0.875rem] font-semibold font-montserrat text-white text-left inline-block min-w-[81.7px]">
-                        Read More
-                    </div>
-                    <div className="flex flex-col items-start justify-end pt-[0rem] px-[0rem] pb-[0.125rem]">
-                        <img
-                            className="w-[26px] h-[9px] relative overflow-hidden shrink-0"
-                            alt=""
-                            src={img1}
-                        />
-                    </div>
-                </button>
-                <button className="cursor-pointer py-[1.375rem] pr-[1.938rem] pl-[2.5rem] bg-white w-[198.6px] !m-[0] absolute bottom-[37.25%] sm:bottom-[25.25%] left-[52.4%] sm:left-[22.4%] rounded-3xs box-border overflow-hidden shrink-0 flex flex-row items-end justify-start gap-[0.606rem] z-[1] border-[2px] border-solid border-white">
-                    <div className="relative text-[0.875rem] tracking-[0.42px] leading-[0.875rem] font-semibold font-montserrat text-midnightblue text-left inline-block min-w-[87.9px]">
-                        Get Innovio
-                    </div>
-                    <div className="flex flex-col items-start justify-end pt-[0rem] px-[0rem] pb-[0.125rem]">
-                        <img
-                            className="w-[26px] h-[9px] relative overflow-hidden shrink-0"
-                            alt=""
-                            src={img1}
-                        />
-                    </div>
-                </button>
+            <div className='grid grid-cols-8  gap-4 h-[100vh] w-[100%]'>
 
 
-                {/* drawing */}
-                <div className=''>
-                    <Hero />
+                {/* Section 2: Other Content */}
+                <div className="col-span-8">
+                    <h1 className="absolute top-[15%] sm:top-[32.313%] sm:left-[7%] left-[5%] text-[5rem] tracking-[-3px] leading-[4.688rem] font-bold font-inherit text-white z-[6] mq450:text-[1.5rem] mq450:leading-[1.875rem] mq1050:text-[2.5rem] mq1050:leading-[2.813rem] text-justify">
+                        <p className="m-0">Crypto blockchain</p>
+                        <p className="m-0">revolution is here</p>
+                    </h1>
+
+                    <h3 className="absolute bottom-[45.188%] left-[7%] sm:bottom-[40%] sm:text-[1.2rem] leading-[1.625rem] font-medium font-inherit z-[1] text-white opacity-80">
+                        <p className="m-0">
+                            Lorem ipsum dolor sit amet, consectetuer adipis cing
+                        </p>
+                        <p className="m-0">diam nonummy nibhie euismod tincidunt utlaoreet.</p>
+                    </h3>
+
+                    <button className="cursor-pointer py-[1.375rem] pr-[1.938rem] pl-[2.5rem] bg-tomato w-[192.4px] absolute bottom-[37.25%] sm:bottom-[25.25%] left-[7%] rounded-3xs box-border overflow-hidden shrink-0 flex flex-row items-end justify-start gap-[0.606rem] z-[1] border-[2px] border-solid border-tomato">
+                        <div className="relative text-[0.875rem] tracking-[0.42px] leading-[0.875rem] font-semibold font-montserrat text-white text-left inline-block min-w-[81.7px]">
+                            Read More
+                        </div>
+                        <div className="flex flex-col items-start justify-end pt-[0rem] px-[0rem] pb-[0.125rem]">
+                            <img
+                                className="w-[26px] h-[9px] relative overflow-hidden shrink-0"
+                                alt=""
+                                src={img1}
+                            />
+                        </div>
+                    </button>
+                    <button className="cursor-pointer py-[1.375rem] pr-[1.938rem] pl-[2.5rem] bg-white w-[198.6px] absolute bottom-[37.25%] sm:bottom-[25.25%] left-[52.4%] sm:left-[22.4%] rounded-3xs box-border overflow-hidden shrink-0 flex flex-row items-end justify-start gap-[0.606rem] z-[1] border-[2px] border-solid border-white">
+                        <div className="relative text-[0.875rem] tracking-[0.42px] leading-[0.875rem] font-semibold font-montserrat text-midnightblue text-left inline-block min-w-[87.9px]">
+                            Get Innovio
+                        </div>
+                        <div className="flex flex-col items-start justify-end pt-[0rem] px-[0rem] pb-[0.125rem] opacity-100 transition-transform duration-300 transform translate-x-0 group-hover:translate-x-[-1.5rem]">
+                            <img
+                                className="w-[26px] h-[9px] relative overflow-hidden shrink-0"
+                                alt=""
+                                src={img1}
+                            />
+                        </div>
+                    </button>
+                </div>
+
+                {/* Section 1: Hero */}
+                <div className="col-span-4  flex justify-center items-center">
+                    <div className="max-w-full max-h-full overflow-hidden">
+                        <Hero/>
+                    </div>
                 </div>
             </div>
 
-            <div className='flex sm:flex-row flex-col flex-wrap sm:mt-[35rem] mt-[60rem] gap-[23rem]'>
+
+            <div className='flex sm:flex-row flex-col flex-wrap sm:mt-[0rem] mt-[15rem] gap-[23rem]'>
                 <div className='sm:ml-[6.6rem] ml-[1.55rem]'>
                     <Cardpart2 name={"Use network to buy & sell"} name1={"shares"} />
                 </div>
@@ -84,7 +91,7 @@ function Home() {
                 <Cryptop03 />
             </div>
 
-            <div className='p-5 sm:mt-[70rem] mt-[100rem]'>
+            <div className='p-5 sm:mt-[70rem] mt-[90rem]'>
                 <Cryptop04 />
             </div>
 
