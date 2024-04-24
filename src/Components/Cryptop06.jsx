@@ -113,10 +113,10 @@ function Cryptop06() {
     ]
     return (
         <div>
-            <section className="relative  left-[7%] w-[1340px] flex flex-row items-end justify-start sm:gap-[1.188rem] max-w-full text-center text-[3.75rem] text-white font-montserrat ">
+            <section className="relative   flex flex-row items-end justify-start sm:gap-[1.188rem] max-w-full text-center text-[3.75rem] text-white font-montserrat ">
 
-                <div className="flex-1 flex flex-col items-start justify-end pt-[0rem] px-[0rem] pb-[1.563rem] box-border max-w-[calc(100%_-_40px)]">
-                    <div className="w-[1125px] flex flex-col sm:ml-[19rem]  items-start justify-center py-[0rem]  px-[1.25rem] box-border max-w-full">
+                <div className="flex-1 flex flex-col items-start justify-end pt-[0rem] px-[0rem] pb-[1.563rem] box-border ">
+                    <div className=" flex flex-col sm:ml-[19rem]  items-start justify-center py-[0rem]  px-[1.25rem] box-border max-w-full">
                         <h1 className="m-0 sm:w-[648px] relative text-inherit tracking-[-2.4px] leading-[4.05rem] font-bold font-inherit flex items-center justify-center shrink-0 z-[2] mq450:text-[2.25rem] mq450:leading-[2.438rem] mq1050:text-[3.5rem] mq1050:leading-[3.25rem]   sm:left-0">
                             Meet the professionals
                         </h1>
@@ -139,9 +139,9 @@ function Cryptop06() {
             </section>
 
 
-            <section className="relative  sm:left-[7%] left-[2px] w-[1340px] flex flex-row items-end justify-start sm:gap-[1.188rem] max-w-full text-center sm:text-[3.75rem] text-[3.6rem] text-white font-montserrat ">
+            <section className="relative    flex flex-row items-end justify-start sm:gap-[1.188rem] max-w-full text-center sm:text-[3.75rem] text-[3.6rem] text-white font-montserrat ">
 
-                <div className="flex-1 flex flex-col items-start justify-end pt-[0rem] px-[0rem] pb-[1.563rem] box-border max-w-[calc(100%_-_40px)]">
+                <div className="flex-1 flex flex-col items-start justify-end pt-[0rem] px-[0rem] pb-[1.563rem] box-border ">
                     {/* part7 */}
                     <div className='mt-[10rem]'></div>
                     <div className=" sm:left-[0%] left-[-7rem] self-stretch flex sm:flex-row flex-col items-start justify-start gap-[9.813rem] max-w-full lg:flex-wrap">
@@ -239,14 +239,14 @@ function Cryptop06() {
 
 
             {/* part8 */}
-            <section className="relative  left-[7%] w-[1340px] flex flex-row items-end justify-start sm:gap-[1.188rem] max-w-full text-center text-[3.75rem] text-white font-montserrat ">
+            <section className="relative  flex flex-row items-end justify-start sm:gap-[1.188rem] max-w-full text-center text-[3.75rem] text-white font-montserrat ">
 
 
-                <div className="flex-1 flex flex-col items-start justify-start pt-[6.25rem] pb-[0rem] pr-[1.563rem] pl-[0rem] box-border max-w-[calc(100%_-_40px)]">
+                <div className="flex-1 flex flex-col items-start justify-start pt-[6.25rem] pb-[0rem] pr-[1.563rem] pl-[0rem] box-border">
                     <div className="self-stretch flex flex-col items-start justify-start gap-[0.694rem] max-w-full">
-                        <div className="w-[1264px] flex flex-row items-end justify-between max-w-full gap-[6.25rem] lg:flex-wrap">
-                            <div className="w-[635px] flex sm:flex-row flex-col items-start justify-start gap-[1.875rem] min-w-[635px] max-w-full lg:flex-1 mq750:flex-wrap mq750:min-w-full">
-                                <div className="relative flex-1 rounded-10xs bg-slateblue flex flex-col items-start justify-start pt-[2rem] pb-[8.875rem] pr-[1.25rem] pl-[2.5rem] box-border gap-[0.313rem] min-w-[227px] min-h-[232px] hover:bg-white hover:text-slateblue">
+                        <div className=" flex sm:flex-row flex-col items-end justify-between max-w-full gap-[6.25rem] lg:flex-wrap">
+                            <div className="w-[635px] flex sm:flex-row flex-col items-start justify-start gap-[1.875rem]  max-w-full lg:flex-1 mq750:flex-wrap mq750:min-w-full">
+                                <div className="relative flex-1 rounded-10xs bg-slateblue flex flex-col items-start justify-start pt-[2rem] pb-[8.875rem] pr-[1.25rem] pl-[2.5rem] box-border gap-[0.313rem] min-w-[227px] w-[230px] min-h-[232px] hover:bg-white hover:text-slateblue">
                                     <div className="relative tracking-[0.26px] leading-[1.5rem] text-[1rem] font-medium">
                                         <span>{`$10,083.035 `}</span>
                                         <span className="text-tomato">-30.94YTD</span>
@@ -302,8 +302,8 @@ function Cryptop06() {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-[1233.8px] flex flex-row items-start justify-between pt-[0rem] px-[0rem] pb-[1.175rem] box-border max-w-full gap-[6.25rem] lg:flex-wrap">
-                            <div className="w-[635px] flex flex-col items-start justify-start pt-[1.181rem] px-[0rem] pb-[0rem] box-border min-w-[635px] max-w-full lg:flex-1 mq750:min-w-full">
+                        <div className="w-[1233.8px] flex sm:flex-row flex-col items-start justify-between pt-[0rem] px-[0rem] pb-[1.175rem] box-border max-w-full gap-[6.25rem] lg:flex-wrap">
+                            <div className="w-[635px] flex flex-col items-start justify-start pt-[1.181rem] px-[0rem] pb-[0rem] box-border  max-w-full lg:flex-1 mq750:min-w-full">
                                 <div className="self-stretch flex sm:flex-row flex-col items-start justify-start gap-[1.875rem] mq750:flex-wrap">
                                 <div className="relative flex-1 rounded-10xs bg-slateblue flex flex-col items-start justify-start pt-[2rem] pb-[8.875rem] pr-[1.25rem] pl-[2.5rem] box-border gap-[0.313rem] min-w-[227px] min-h-[232px] hover:bg-white hover:text-slateblue">
                                     <div className="relative tracking-[0.26px] leading-[1.5rem] text-[1rem] font-medium">
@@ -370,7 +370,7 @@ function Cryptop06() {
                         </div>
 
 
-                        <div className="self-stretch flex mt-[10rem] flex-row flex-wrap items-end justify-start gap-[5rem] max-w-full text-[1.688rem] text-white">
+                        <div className="self-stretch flex mt-[10rem] sm:flex-row flex-col flex-wrap items-end justify-start gap-[2rem] max-w-full text-[1.688rem] text-white">
                             {/* <div className="w-[388.7px] flex flex-col items-start justify-start pt-[0rem] px-[0rem] pb-[3.125rem] box-border min-h-[512px] max-w-full">
                                 <div className="self-stretch flex flex-col items-start justify-start gap-[3.438rem]"> */}
                             {
@@ -391,9 +391,9 @@ function Cryptop06() {
 
             {/* part9  */}
 
-            <section className="relative sm:left-[6%] left-[4%] w-[1340px] flex flex-row items-end justify-start sm:gap-[1.188rem] max-w-full text-center text-[3.75rem] text-white font-montserrat box-border bg-[url('https://innovio.qodeinteractive.com/wp-content/uploads/2018/10/h4-backround-img-1.png')] bg-cover bg-no-repeat bg-[top] ">
+            <section className="relative  flex flex-row items-end justify-start sm:gap-[1.188rem] max-w-full text-center text-[3.75rem] text-white font-montserrat box-border bg-[url('https://innovio.qodeinteractive.com/wp-content/uploads/2018/10/h4-backround-img-1.png')] bg-cover bg-no-repeat bg-[top] ">
 
-                <div className="flex-1 flex flex-col items-start justify-end pt-[0rem] px-[0rem] pb-[1.563rem] box-border max-w-[calc(100%_-_40px)]">
+                <div className="flex-1 flex flex-col items-start justify-end pt-[0rem] px-[0rem] pb-[1.563rem] box-border">
 
                     <div className="w-[495.4px] flex flex-row items-start justify-start gap-[1.188rem] max-w-full">
                         {/* <div className="h-[827.6px] w-px bg-mediumslateblue-200 flex flex-row items-start justify-start relative">
@@ -456,7 +456,7 @@ function Cryptop06() {
 const Card = ({ data }) => {
     return (
         <div className='mb-[2rem]'>
-            <div className="h-[431.5px] sm:w-[302px] w-[370px] flex flex-col items-start justify-start gap-[1.513rem] text-left text-[0.813rem] text-royalblue-100 font-montserrat">
+            <div className="h-[431.5px] sm:w-[280px] w-[370px] flex flex-col items-start justify-start gap-[1.513rem] text-left text-[0.813rem] text-royalblue-100 font-montserrat">
                 <img
                     className="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-cover"
                     loading="lazy"

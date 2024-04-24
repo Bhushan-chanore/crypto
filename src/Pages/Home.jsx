@@ -14,17 +14,18 @@ import Cryptop06 from '../Components/Cryptop06'
 import Cryptop7 from '../Components/Cryptop7'
 function Home() {
     return (
-        <div className='h-[100%] w-[100vw]  bg-darkblue-100 overflow-hidden'>
+        <div className='h-[100vh] bg-darkblue-100 '>
             <Navbar />
             <ScrollIndicator left="5%" right="auto" ballOffset="15" />
             <ScrollIndicator left="35%" right="auto" ballOffset="30" />
             <ScrollIndicator left="auto" right="35%" ballOffset="12" />
             <ScrollIndicator left="auto" right="5%" ballOffset="20" />
 
+            {/* <p className='h-[500px]'></p> */}
+
             <div className='grid grid-cols-8  gap-4 h-[100vh] w-[100%]'>
 
 
-                {/* Section 2: Other Content */}
                 <div className="col-span-8">
                     <h1 className="absolute top-[15%] sm:top-[32.313%] sm:left-[7%] left-[5%] text-[5rem] tracking-[-3px] leading-[4.688rem] font-bold font-inherit text-white z-[6] mq450:text-[1.5rem] mq450:leading-[1.875rem] mq1050:text-[2.5rem] mq1050:leading-[2.813rem] text-justify">
                         <p className="m-0">Crypto blockchain</p>
@@ -64,47 +65,66 @@ function Home() {
                     </button>
                 </div>
 
-                {/* Section 1: Hero */}
                 <div className="col-span-4  flex justify-center items-center">
                     <div className="max-w-full max-h-full overflow-hidden">
-                        <Hero/>
+                        <Hero />
                     </div>
                 </div>
             </div>
 
+{/*             
+<div className='flex sm:flex-row flex-col flex-wrap sm:mt-[0rem] mt-[15rem] gap-[23rem]'>
+<div className='sm:ml-[6.6rem] ml-[1.55rem]'>
+    <Cardpart2 name={"Use network to buy & sell"} name1={"shares"} />
+</div>
 
-            <div className='flex sm:flex-row flex-col flex-wrap sm:mt-[0rem] mt-[15rem] gap-[23rem]'>
-                <div className='sm:ml-[6.6rem] ml-[1.55rem]'>
-                    <Cardpart2 name={"Use network to buy & sell"} name1={"shares"} />
-                </div>
+<div className='sm:ml-[5.6rem] ml-[1.55rem]'>
+    <Cardpart2 name={"Introducing the"} name1={"marketplace sistem"} />
+</div>
 
-                <div className='sm:ml-[5.6rem] ml-[1.55rem]'>
-                    <Cardpart2 name={"Introducing the"} name1={"marketplace sistem"} />
-                </div>
+<div className='sm:ml-[5.6rem] ml-[1.55rem]'>
+    <Cardpart2 name={"Powering data for the"} name1={"new blockchain"} />
+</div>
+</div> */}
 
-                <div className='sm:ml-[5.6rem] ml-[1.55rem]'>
-                    <Cardpart2 name={"Powering data for the"} name1={"new blockchain"} />
-                </div>
-            </div>
 
-            <div className='mt-[25rem]'>
-                <Cryptop03 />
-            </div>
 
-            <div className='p-5 sm:mt-[70rem] mt-[90rem]'>
-                <Cryptop04 />
-            </div>
+<div className=' bg-darkblue-100 sm:mt-[0rem] mt-[15rem]'>
+<Cryptop03 />
+</div>
 
-            <div className='mt-[10rem]'></div>
-            <Cryptop05 />
-            <div className='mt-[10rem]'></div>
-            <Cryptop06 />
 
-            <div className='mt-[10rem]'></div>
-            <Cryptop7 />
-            <div className='mb-[10rem]'></div>
+ <div className='p-5 sm:mt-[45rem] mt-[90rem]'>
+<Cryptop04 />
+</div> 
+           <div className='mt-[10rem]'>
+
+<Cryptop05 />
+</div> 
+
+
+
+<div className='mt-[10rem]'>
+
+<Cryptop06 />
+</div>
+
+
+<div className='mb-[10rem]'></div>
+
+
+            {/* 
+            
+
+
+
+ */}
+
         </div>
     )
 }
 
 export default Home
+
+
+

@@ -2,12 +2,12 @@
 
 const Cryptop05 = () => {
     return (
-        <section className="relative  left-[7%] w-[1340px] flex flex-row items-end justify-start sm:gap-[1.188rem] max-w-full text-center text-[3.75rem] text-white font-montserrat ">
+        <section className="relative flex flex-row items-end justify-start sm:gap-[1.188rem] max-w-full text-center text-[3.75rem] text-white font-montserrat ">
             {/* <div className="h-[511.8px] w-px bg-mediumslateblue-200 flex flex-row items-start justify-start relative z-[1]">
         <div className="h-[5px] w-[5px] absolute !m-[0] bottom-[-25.194rem] left-[calc(50%_-_2.5px)] rounded-8xs bg-white" />
       </div> */}
-            <div className="flex-1 flex flex-col items-start justify-end pt-[0rem] px-[0rem] pb-[1.563rem] box-border max-w-[calc(100%_-_40px)]">
-                <div className="w-[1125px] flex flex-col sm:ml-[19rem]  items-start justify-center py-[0rem]  px-[1.25rem] box-border max-w-full">
+            <div className="flex-1 flex flex-col items-start justify-end pt-[0rem] px-[0rem] pb-[1.563rem] box-border ">
+                <div className=" flex flex-col sm:ml-[19rem]  items-start justify-center py-[0rem]  px-[1.25rem] box-border max-w-full">
                     <h1 className="m-0 sm:w-[648px] relative text-inherit tracking-[-2.4px] leading-[4.05rem] font-bold font-inherit flex items-center justify-center shrink-0 z-[2] mq450:text-[2.25rem] mq450:leading-[2.438rem] mq1050:text-[3.5rem] mq1050:leading-[3.25rem]   sm:left-0">
                         Our strategy & roadmap
                     </h1>
@@ -20,7 +20,7 @@ const Cryptop05 = () => {
             proinEgetPurusAugueNamTem="Proin eget purus augue. Nam tempor dapibus sapien, ut posuere magna malesuada et."
             maecenasConsecteturSemVit="Maecenas consectetur, sem vitae dignissim commodo, erat."
           /> */}
-                    <div className="self-stretch overflow-hidden flex flex-col items-start justify-start pt-[1.813rem] px-[0rem] pb-[1.688rem] box-border relative max-w-full z-[2] text-[0.938rem] text-royalblue-200">
+                    <div className="self-stretch overflow-hidden flex flex-col items-start justify-start pt-[1.813rem] px-[0rem] pb-[1.688rem] box-border relative  z-[2] text-[0.938rem] text-royalblue-200">
                         <div className="w-[260px] h-[3px] absolute !m-[0] bottom-[1.688rem] left-[8.125rem] bg-royalblue-300 z-[2]" />
                         <div className="w-[260px] h-[3px] absolute !m-[0] top-[1.813rem] left-[24.375rem] bg-royalblue-300 z-[5]" />
                         <div className="w-[260px] h-[3px] absolute !m-[0] right-[24.375rem] bottom-[1.688rem] bg-royalblue-300 z-[8]" />

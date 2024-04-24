@@ -6,8 +6,8 @@ import img3 from "../Images/h4holdersingleimg1png@2x.png";
 function Cryptop04() {
   return (
     <div>
-      <section className="relative max-w-full text-left text-lightsteelblue font-montserrat flex sm:flex-row flex-col sm:gap-[11rem] gap-8 items-center justify-center px-4">
-        <div className="w-full max-w-[552.6px] flex flex-col items-start gap-6">
+      <section className="relative max-w-full  text-left text-lightsteelblue font-montserrat flex sm:flex-row flex-col sm:gap-[11rem] gap-8 items-center justify-center px-4">
+        <div className="w-full max-w-[540.6px] flex flex-col items-start gap-6">
           <h1 className="sm:text-[3.3rem] text-[2.5rem] font-extrabold text-white">
             All-in-one gateway
           </h1>
