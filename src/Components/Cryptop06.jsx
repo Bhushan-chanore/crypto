@@ -21,8 +21,8 @@ import img44 from "../Images/h4iconwithtextimg4png@2x.png"
 import img45 from "../Images/h4iconwithtextimg5png@2x.png"
 import img46 from "../Images/h4iconwithtextimg6png@2x.png"
 
-import img51 from "../Images/svg-6.svg"
-import img52 from "../Images/svg-1.svg"
+
+import imgy from "../Images/svg-1.svg"
 import img61 from "../Images/icon-35.svg"
 
 function Cryptop06() {
@@ -115,15 +115,15 @@ function Cryptop06() {
         <div>
             <section className="relative   flex flex-row items-end justify-start sm:gap-[1.188rem] max-w-full text-center text-[3.75rem] text-white font-montserrat ">
 
-                <div className="flex-1 flex flex-col items-start justify-end pt-[0rem] px-[0rem] pb-[1.563rem] box-border ">
-                    <div className=" flex flex-col sm:ml-[19rem]  items-start justify-center py-[0rem]  px-[1.25rem] box-border max-w-full">
-                        <h1 className="m-0 sm:w-[648px] relative text-inherit tracking-[-2.4px] leading-[4.05rem] font-bold font-inherit flex items-center justify-center shrink-0 z-[2] mq450:text-[2.25rem] mq450:leading-[2.438rem] mq1050:text-[3.5rem] mq1050:leading-[3.25rem]   sm:left-0">
+                <div className="flex-1 flex flex-col items-center justify-end pt-[0rem] px-[0rem] pb-[1.563rem] box-border ">
+                    <div className=" flex flex-col   items-center justify-center py-[0rem]  px-[1.25rem] box-border max-w-full">
+                        <h1 className="m-0 sm:w-[648px] relative text-inherit tracking-[-2.4px] leading-[4.05rem] font-bold font-inherit flex items-center justify-center shrink-0 z-[2] mq450:text-[2.25rem] mq450:leading-[2.438rem] mq1050:text-[3.5rem] mq1050:leading-[3.25rem]   ">
                             Meet the professionals
                         </h1>
                         <p className="text-[1.2rem] sm:w-[648px] flex py-4 flex-row">Praesent hendrerit, mi facilisis eleifend lobortis mi est hendrerit fringillaibus lorem, nonfringilla dui enim et ante eleiz.</p>
                     </div>
 
-                    <div className='mt-4 flex flex-row flex-wrap gap-[1.91rem]'>
+                    <div className='mt-4 flex flex-row flex-wrap gap-[1.91rem] justify-evenly'>
 
                         {
                             card.map((data) => (
@@ -139,114 +139,131 @@ function Cryptop06() {
             </section>
 
 
-            <section className="relative    flex flex-row items-end justify-start sm:gap-[1.188rem] max-w-full text-center sm:text-[3.75rem] text-[3.6rem] text-white font-montserrat ">
+            {/*  */}
 
-                <div className="flex-1 flex flex-col items-start justify-end pt-[0rem] px-[0rem] pb-[1.563rem] box-border ">
-                    {/* part7 */}
-                    <div className='mt-[10rem]'></div>
-                    <div className=" sm:left-[0%] left-[-7rem] self-stretch flex sm:flex-row flex-col items-start justify-start gap-[9.813rem] max-w-full lg:flex-wrap">
-                        <div className="w-[528px] flex flex-row items-end justify-start gap-[1.188rem] min-w-[528px] max-w-full lg:flex-1 mq450:flex-wrap mq750:min-w-full">
-                            {/* <div className="h-[436.7px] w-px bg-mediumslateblue-200 flex flex-row items-start justify-start relative z-[3] mq450:w-full mq450:h-px">
-                                <div className="h-[5px] w-[5px] absolute !m-[0] bottom-[-25.081rem] left-[calc(50%_-_2.5px)] rounded-8xs bg-white" />
-                            </div> */}
-                            <div className="flex-1 flex flex-col items-start justify-start pt-[0rem] px-[0rem] pb-[3.438rem] box-border min-w-[330px] min-h-[352px] max-w-full">
-                                <div className="self-stretch flex flex-col items-start justify-start gap-[2.038rem] max-w-full">
-                                    <h1 className="m-0 w-[476.7px] relative text-inherit tracking-[-2px] leading-[3.188rem] font-bold font-inherit flex items-center max-w-full box-border pr-[1.25rem] z-[4] mq450:text-[1.875rem] mq450:leading-[1.938rem] mq1050:text-[2.5rem] mq1050:leading-[2.563rem]">
-                                        The right solutions
-                                    </h1>
-                                    <div className="self-stretch flex flex-col items-start justify-start gap-[2.356rem] max-w-full text-[1.1rem] text-royalblue-100 ">
-                                        <div className="self-stretch flex flex-col items-start justify-start gap-[0.5rem] max-w-[80%] sm:max-w-full">
-                                            <div className="w-[350.8px] flex flex-row items-end justify-between py-[0rem] pr-[1.25rem] pl-[0rem] box-border max-w-full gap-[1.25rem]">
-                                                <div className="flex flex-col items-start justify-end pt-[0rem] px-[0rem] pb-[0.125rem]">
-                                                    <div className="relative tracking-[0.26px] leading-[1.5rem] font-medium inline-block min-w-[93.5px]">
-                                                        Development
-                                                    </div>
+
+
+
+            <section className=" mt-[5rem] sm:px-[7rem] p-0 flex flex-row items-start justify-start sm:gap-[1.188rem] max-w-full text-center sm:text-[3.75rem] text-[3rem] text-white font-montserrat ">
+
+                {/* <div className="flex-1 flex  sm:flex-row flex-col items-start justify-start pt-[0rem] px-[0rem] pb-[1.563rem] box-border "> */}
+                {/* part7 */}
+                <div className='mt-[10rem]'></div>
+                <div className="  self-stretch  flex flex-row flex-wrap  items-start justify-start  max-w-full lg:flex-wrap gap-[11rem]">
+                    <div className=" flex flex-row items-end justify-start gap-[1.188rem]  max-w-full lg:flex-1 mq450:flex-wrap mq750:min-w-full">
+
+                        <div className=" flex flex-row items-start justify-start pt-[0rem] px-[0rem] pb-[3.438rem] box-border min-w-[430px] min-h-[352px] max-w-full">
+                            <div className="self-stretch flex flex-col items-start justify-start gap-[2.038rem] max-w-full">
+                                <h1 className="m-0 p-1 text-[3.4rem] relative  tracking-[-2px] leading-[3.188rem] font-bold font-inherit flex items-center max-w-full box-border pr-[0rem] z-[4] mq450:text-[1.875rem] mq450:leading-[1.938rem] mq1050:text-[2.5rem] mq1050:leading-[2.563rem]">
+                                    The right solution
+                                </h1>
+                                <div className="self-stretch flex flex-col items-start justify-start gap-[2.356rem] max-w-full text-[1.1rem] text-royalblue-100 ">
+                                    <div className="self-stretch flex flex-col items-start justify-start gap-[0.5rem] ">
+                                        <div className="w-[350.8px] flex flex-row items-end justify-between py-[0rem] pr-[1.25rem] pl-[0rem] box-border max-w-full gap-[1.25rem]">
+                                            <div className="flex flex-col items-start justify-end pt-[0rem] px-[0rem] pb-[0.125rem]">
+                                                <div className="relative tracking-[0.26px] leading-[1.5rem] font-medium inline-block min-w-[93.5px]">
+                                                    Development
                                                 </div>
-                                                <button className="cursor-pointer [border:none] pt-[0.438rem] pb-[0.563rem] pr-[0.625rem] pl-[0.8rem] bg-royalblue-100 h-8 rounded flex flex-col items-start justify-start box-border gap-[0.563rem]">
-                                                    <div className="h-4 relative text-[0.813rem] tracking-[0.26px] leading-[2.063rem] font-medium font-montserrat text-white text-left flex items-center shrink-0 min-w-[28.8px]">
-                                                        60%
-                                                    </div>
-                                                    <div className="flex flex-row items-start justify-start py-[0rem] pr-[0.625rem] pl-[0.45rem]">
-                                                        <div className="h-[5px] w-3 relative box-border border-t-[5px] border-solid border-royalblue-100 border-r-[6px] border-l-[6px]" />
-                                                    </div>
-                                                </button>
                                             </div>
-                                            <div className="self-stretch rounded-10xs bg-white overflow-hidden flex flex-row items-start justify-start z-[4]">
-                                                <div className="h-1.5 w-[304.8px] relative bg-royalblue-100 overflow-hidden shrink-0" />
-                                            </div>
+                                            <button className="cursor-pointer [border:none] pt-[0.438rem] pb-[0.563rem] pr-[0.625rem] pl-[0.8rem] bg-royalblue-100 h-8 rounded flex flex-col items-start justify-start box-border gap-[0.563rem]">
+                                                <div className="h-4 relative text-[0.813rem] tracking-[0.26px] leading-[2.063rem] font-medium font-montserrat text-white text-left flex items-center shrink-0 min-w-[28.8px]">
+                                                    60%
+                                                </div>
+                                                <div className="flex flex-row items-start justify-start py-[0rem] pr-[0.625rem] pl-[0.45rem]">
+                                                    <div className="h-[5px] w-3 relative box-border border-t-[5px] border-solid border-royalblue-100 border-r-[6px] border-l-[6px]" />
+                                                </div>
+                                            </button>
                                         </div>
-                                        <div className="self-stretch flex flex-col items-start justify-start gap-[0.5rem] max-w-[80%] sm:max-w-full">
-                                            <div className="self-stretch flex flex-row items-end justify-between py-[0rem] pr-[0.938rem] pl-[0rem] gap-[1.25rem] mq450:flex-wrap">
-                                                <div className="flex flex-col items-start justify-end pt-[0rem] px-[0rem] pb-[0.125rem]">
-                                                    <div className="relative tracking-[0.26px] leading-[1.5rem] font-medium inline-block min-w-[91.4px] box-border pr-[0rem]">
-                                                        UI/UX Design
-                                                    </div>
-                                                </div>
-                                                <button className="cursor-pointer [border:none] pt-[0.438rem] pb-[0.563rem] pr-[0.688rem] pl-[0.831rem] bg-tomato h-8 rounded flex flex-col items-start justify-start box-border gap-[0.563rem]">
-                                                    <div className="h-4 relative text-[0.813rem] tracking-[0.26px] leading-[2.063rem] font-medium font-montserrat text-white text-left flex items-center shrink-0 min-w-[27.7px]">
-                                                        92%
-                                                    </div>
-                                                    <div className="flex flex-row items-start justify-start py-[0rem] pr-[0.563rem] pl-[0.419rem]">
-                                                        <div className="h-[5px] w-3 relative box-border border-t-[5px] border-solid border-tomato border-r-[6px] border-l-[6px]" />
-                                                    </div>
-                                                </button>
-                                            </div>
-                                            <div className="self-stretch h-1.5 rounded-10xs bg-white overflow-hidden shrink-0 flex flex-row items-start justify-start py-[0rem] pr-[2.5rem] pl-[0rem] box-border max-w-full z-[4]">
-                                                <div className="self-stretch flex-1 relative bg-tomato overflow-hidden max-w-full" />
-                                            </div>
+                                        <div className="self-stretch rounded-10xs bg-white overflow-hidden flex flex-row items-start justify-start z-[4]">
+                                            <div className="h-1.5 w-[304.8px] relative bg-royalblue-100 overflow-hidden shrink-0" />
                                         </div>
-                                        <div className="self-stretch flex flex-col items-start justify-start gap-[0.5rem] max-w-[80%] sm:max-w-full">
-                                            <div className="w-[442.3px] flex flex-row items-end justify-between py-[0rem] pr-[1.25rem] pl-[0rem] box-border gap-[1.25rem] max-w-full mq450:flex-wrap">
-                                                <div className="flex flex-col items-start justify-end pt-[0rem] px-[0rem] pb-[0.125rem]">
-                                                    <div className="relative tracking-[0.26px] leading-[1.5rem] font-medium inline-block min-w-[92.7px]">
-                                                        Compatibility
-                                                    </div>
+                                    </div>
+                                    <div className="self-stretch flex flex-col items-start justify-start gap-[0.5rem] ">
+                                        <div className="self-stretch flex flex-row items-end justify-between py-[0rem] pr-[0.938rem] pl-[0rem] gap-[1.25rem] mq450:flex-wrap">
+                                            <div className="flex flex-col items-start justify-end pt-[0rem] px-[0rem] pb-[0.125rem]">
+                                                <div className="relative tracking-[0.26px] leading-[1.5rem] font-medium inline-block min-w-[91.4px] box-border pr-[0rem]">
+                                                    UI/UX Design
                                                 </div>
-                                                <button className="cursor-pointer [border:none] pt-[0.438rem] pb-[0.563rem] pr-[0.681rem] pl-[0.825rem] bg-darkblue-200 h-8 rounded flex flex-col items-start justify-start box-border gap-[0.563rem] ">
-                                                    <div className="h-4 relative text-[0.813rem] tracking-[0.26px] leading-[2.063rem] font-medium font-montserrat text-white text-left flex items-center shrink-0 min-w-[27.9px]">
-                                                        78%
-                                                    </div>
-                                                    <div className="flex flex-row items-start justify-start py-[0rem] pr-[0.563rem] pl-[0.425rem]">
-                                                        <div className="h-[5px] w-3 relative box-border border-t-[5px] border-solid border-darkblue-200 border-r-[6px] border-l-[6px]" />
-                                                    </div>
-                                                </button>
                                             </div>
-                                            <div className="self-stretch h-1.5 rounded-10xs bg-white overflow-hidden shrink-0 flex flex-row items-start justify-start max-w-full z-[4]">
-                                                <div className="self-stretch w-[396.2px] relative bg-darkblue-200 overflow-hidden shrink-0 max-w-full" />
+                                            <button className="cursor-pointer [border:none] pt-[0.438rem] pb-[0.563rem] pr-[0.688rem] pl-[0.831rem] bg-tomato h-8 rounded flex flex-col items-start justify-start box-border gap-[0.563rem]">
+                                                <div className="h-4 relative text-[0.813rem] tracking-[0.26px] leading-[2.063rem] font-medium font-montserrat text-white text-left flex items-center shrink-0 min-w-[27.7px]">
+                                                    92%
+                                                </div>
+                                                <div className="flex flex-row items-start justify-start py-[0rem] pr-[0.563rem] pl-[0.419rem]">
+                                                    <div className="h-[5px] w-3 relative box-border border-t-[5px] border-solid border-tomato border-r-[6px] border-l-[6px]" />
+                                                </div>
+                                            </button>
+                                        </div>
+                                        <div className="self-stretch h-1.5 rounded-10xs bg-white overflow-hidden shrink-0 flex flex-row items-start justify-start py-[0rem] pr-[2.5rem] pl-[0rem] box-border max-w-full z-[4]">
+                                            <div className="self-stretch flex-1 relative bg-tomato overflow-hidden max-w-full" />
+                                        </div>
+                                    </div>
+                                    <div className="self-stretch flex flex-col items-start justify-start gap-[0.5rem] ">
+                                        <div className="w-[442.3px] flex flex-row items-end justify-between py-[0rem] pr-[1.25rem] pl-[0rem] box-border gap-[1.25rem] max-w-full mq450:flex-wrap">
+                                            <div className="flex flex-col items-start justify-end pt-[0rem] px-[0rem] pb-[0.125rem]">
+                                                <div className="relative tracking-[0.26px] leading-[1.5rem] font-medium inline-block min-w-[92.7px]">
+                                                    Compatibility
+                                                </div>
                                             </div>
+                                            <button className="cursor-pointer [border:none] pt-[0.438rem] pb-[0.563rem] pr-[0.681rem] pl-[0.825rem] bg-darkblue-200 h-8 rounded flex flex-col items-start justify-start box-border gap-[0.563rem] ">
+                                                <div className="h-4 relative text-[0.813rem] tracking-[0.26px] leading-[2.063rem] font-medium font-montserrat text-white text-left flex items-center shrink-0 min-w-[27.9px]">
+                                                    78%
+                                                </div>
+                                                <div className="flex flex-row items-start justify-start py-[0rem] pr-[0.563rem] pl-[0.425rem]">
+                                                    <div className="h-[5px] w-3 relative box-border border-t-[5px] border-solid border-darkblue-200 border-r-[6px] border-l-[6px]" />
+                                                </div>
+                                            </button>
+                                        </div>
+                                        <div className="self-stretch h-1.5 rounded-10xs bg-white overflow-hidden shrink-0 flex flex-row items-start justify-start max-w-full z-[4]">
+                                            <div className="self-stretch w-[396.2px] relative bg-darkblue-200 overflow-hidden shrink-0 max-w-full" />
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="flex-1 flex flex-row items-end justify-start gap-[1.188rem] min-w-[426px] max-w-full mq750:flex-wrap mq750:min-w-full">
-                            <img
-                                className="h-[365.7px] flex-1 relative max-w-full overflow-hidden object-cover min-w-[413px] z-[4] mq450:min-w-full"
-                                loading="lazy"
-                                alt=""
-                                src={img12}
-                            />
-                            {/* <div className="h-[436.7px] w-px bg-mediumslateblue-200 flex flex-col items-start justify-start relative z-[3] mq750:w-full mq750:h-px">
-                                <div className="w-[5px] h-[5px] absolute !m-[0] top-[-13.856rem] left-[calc(50%_-_2.5px)] rounded-8xs bg-white" />
-                            </div> */}
-                        </div>
                     </div>
-                    {/* part7end */}
-
+                    <div className="flex-1 flex flex-row items-end justify-end gap-[1.188rem] min-w-[400px] max-w-full mq750:flex-wrap mq750:min-w-full">
+                        <img
+                            className="h-[300.7px] sm:h-[350px] flex-1 relative  overflow-hidden object-cover sm:max-w-[830px] max-w-[430] z-[4] mq450:min-w-full"
+                            loading="lazy"
+                            alt=""
+                            src={img12}
+                        />
+                        {/* <div className="h-[436.7px] w-px bg-mediumslateblue-200 flex flex-col items-start justify-start relative z-[3] mq750:w-full mq750:h-px">
+                <div className="w-[5px] h-[5px] absolute !m-[0] top-[-13.856rem] left-[calc(50%_-_2.5px)] rounded-8xs bg-white" />
+            </div> */}
+                    </div>
                 </div>
+                {/* part7end */}
+
+                {/* </div> */}
 
             </section>
 
 
-            {/* part8 */}
-            <section className="relative  flex flex-row items-end justify-start sm:gap-[1.188rem] max-w-full text-center text-[3.75rem] text-white font-montserrat ">
 
 
-                <div className="flex-1 flex flex-col items-start justify-start pt-[6.25rem] pb-[0rem] pr-[1.563rem] pl-[0rem] box-border">
-                    <div className="self-stretch flex flex-col items-start justify-start gap-[0.694rem] max-w-full">
-                        <div className=" flex sm:flex-row flex-col items-end justify-between max-w-full gap-[6.25rem] lg:flex-wrap">
-                            <div className="w-[635px] flex sm:flex-row flex-col items-start justify-start gap-[1.875rem]  max-w-full lg:flex-1 mq750:flex-wrap mq750:min-w-full">
-                                <div className="relative flex-1 rounded-10xs bg-slateblue flex flex-col items-start justify-start pt-[2rem] pb-[8.875rem] pr-[1.25rem] pl-[2.5rem] box-border gap-[0.313rem] min-w-[227px] w-[230px] min-h-[232px] hover:bg-white hover:text-slateblue">
+            {/*  */}
+
+
+
+
+
+
+
+
+            <section className=" flex flex-row items-start justify-start sm:gap-[1.188rem] max-w-full text-center text-[3.75rem] text-white font-montserrat ">
+
+
+                <div className="p-[4rem] flex-1 flex flex-col items-start justify-start pt-[6.25rem] pb-[0rem] sm:pr-[1.563rem] pr-[0rem] pl-[0rem] box-border">
+                    {/* <div className="self-stretch flex flex-col items-start justify-start gap-[0.694rem] max-w-full"> */}
+
+
+
+
+                        <div className="  flex sm:flex-row flex-col items-start justify-evenly pt-[0rem]  pb-[1.175rem] box-border max-w-full gap-[3.25rem] lg:flex-wrap sm:px-[5rem] px-1">
+                            <div className=" flex sm:flex-row flex-col items-start justify-start gap-[1.875rem]   lg:flex-1 mq750:flex-wrap mq750:min-w-full pl-8">
+                                <div className="relative flex-1 rounded-10xs bg-slateblue flex flex-col items-start justify-start pt-[2rem] pb-[8.875rem] pr-[1.25rem] pl-[2.5rem] box-border gap-[0.313rem] max-w-[350px] w-[350px] min-h-[232px] hover:bg-white hover:text-slateblue">
                                     <div className="relative tracking-[0.26px] leading-[1.5rem] text-[1rem] font-medium">
                                         <span>{`$10,083.035 `}</span>
                                         <span className="text-tomato">-30.94YTD</span>
@@ -262,7 +279,7 @@ function Cryptop06() {
                                     <div className="absolute inset-0 opacity-0 hover:opacity-100"></div>
                                 </div>
 
-                                <div className="relative flex-1 rounded-10xs bg-slateblue flex flex-col items-start justify-start pt-[2rem] pb-[8.875rem] pr-[1.25rem] pl-[2.5rem] box-border gap-[0.313rem] min-w-[227px] min-h-[232px] hover:bg-white hover:text-slateblue">
+                                <div className="relative w-[350px] flex-1 rounded-10xs bg-slateblue flex flex-col items-start justify-start pt-[2rem] pb-[8.875rem] pr-[1.25rem] pl-[2.5rem] box-border gap-[0.313rem] max-w-[350px] min-h-[232px] hover:bg-white hover:text-slateblue">
                                     <div className="relative tracking-[0.26px] leading-[1.5rem] text-[1rem] font-medium">
                                         <span>{`$10,083.035 `}</span>
                                         <span className="text-tomato">-30.94YTD</span>
@@ -278,7 +295,7 @@ function Cryptop06() {
                                     <div className="absolute inset-0 opacity-0 hover:opacity-100"></div>
                                 </div>
                             </div>
-                            <div className="flex flex-col items-start justify-end pt-[0rem] px-[0rem] pb-[0.744rem] box-border min-w-[516.3999999999978px] max-w-full text-[3.125rem] text-white lg:flex-1 mq750:min-w-full ">
+                            <div className="flex flex-col items-start bottom-1 justify-end pt-[0rem] px-[0rem] pb-[0.744rem] box-border  max-w-full text-[3.125rem] text-white lg:flex-1 mq750:min-w-full sm:pt-[6.5rem]">
                                 <div className="flex flex-col items-start justify-start gap-[1.344rem] max-w-full">
                                     <h1 className="m-0 relative text-inherit tracking-[-2px] leading-[3.188rem] font-bold font-inherit inline-block max-w-full z-[6] mq450:text-[1.875rem] mq450:leading-[1.938rem] mq1050:text-[2.5rem] mq1050:leading-[2.563rem]">
                                         Our crypto pricing
@@ -302,42 +319,42 @@ function Cryptop06() {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-[1233.8px] flex sm:flex-row flex-col items-start justify-between pt-[0rem] px-[0rem] pb-[1.175rem] box-border max-w-full gap-[6.25rem] lg:flex-wrap">
-                            <div className="w-[635px] flex flex-col items-start justify-start pt-[1.181rem] px-[0rem] pb-[0rem] box-border  max-w-full lg:flex-1 mq750:min-w-full">
-                                <div className="self-stretch flex sm:flex-row flex-col items-start justify-start gap-[1.875rem] mq750:flex-wrap">
-                                <div className="relative flex-1 rounded-10xs bg-slateblue flex flex-col items-start justify-start pt-[2rem] pb-[8.875rem] pr-[1.25rem] pl-[2.5rem] box-border gap-[0.313rem] min-w-[227px] min-h-[232px] hover:bg-white hover:text-slateblue">
-                                    <div className="relative tracking-[0.26px] leading-[1.5rem] text-[1rem] font-medium">
-                                        <span>{`$10,083.035 `}</span>
-                                        <span className="text-tomato">-30.94YTD</span>
+                        <div className=" flex sm:flex-row flex-col items-start justify-evenly pt-[0rem]  pb-[1.175rem] box-border max-w-full gap-[3.25rem] lg:flex-wrap sm:px-[5rem] px-1">
+                            <div className=" flex flex-col items-start justify-start pt-[1.181rem] px-[0rem] pb-[0rem] box-border  max-w-full lg:flex-1 mq750:min-w-full">
+                                <div className="self-stretch flex sm:flex-row flex-col items-start justify-start gap-[1.875rem] mq750:flex-wrap pl-8">
+                                    <div className="relative w-[350px] flex-1 rounded-10xs bg-slateblue flex flex-col items-start justify-start pt-[2rem] pb-[8.875rem] pr-[1.25rem] pl-[2.5rem] box-border gap-[0.313rem] max-w-[350px] min-h-[232px] hover:bg-white hover:text-slateblue">
+                                        <div className="relative tracking-[0.26px] leading-[1.5rem] text-[1rem] font-medium">
+                                            <span>{`$10,083.035 `}</span>
+                                            <span className="text-tomato">-30.94YTD</span>
+                                        </div>
+                                        <h1 className="m-0 relative text-[1.688rem] tracking-[-1.08px] leading-[1.806rem] font-bold font-inherit inline-block min-w-[93.8px] mq450:text-[1.375rem] mq450:leading-[1.438rem]">
+                                            Ripple
+                                        </h1>
+                                        {/* Button */}
+                                        <button className="absolute bottom-5 left-5 text-[1rem] py-[0.5rem] px-[1rem] bg-tomato text-white rounded-3xs opacity-0 transition-opacity duration-300 ease-in-out hover:opacity-100">
+                                            Read More
+                                        </button>
+                                        {/* Invisible hover area */}
+                                        <div className="absolute inset-0 opacity-0 hover:opacity-100"></div>
                                     </div>
-                                    <h1 className="m-0 relative text-[1.688rem] tracking-[-1.08px] leading-[1.806rem] font-bold font-inherit inline-block min-w-[93.8px] mq450:text-[1.375rem] mq450:leading-[1.438rem]">
-                                        Ripple
-                                    </h1>
-                                    {/* Button */}
-                                    <button className="absolute bottom-5 left-5 text-[1rem] py-[0.5rem] px-[1rem] bg-tomato text-white rounded-3xs opacity-0 transition-opacity duration-300 ease-in-out hover:opacity-100">
-                                        Read More
-                                    </button>
-                                    {/* Invisible hover area */}
-                                    <div className="absolute inset-0 opacity-0 hover:opacity-100"></div>
-                                </div>
-                                <div className="relative flex-1 rounded-10xs bg-slateblue flex flex-col items-start justify-start pt-[2rem] pb-[8.875rem] pr-[1.25rem] pl-[2.5rem] box-border gap-[0.313rem] min-w-[227px] min-h-[232px] hover:bg-white hover:text-slateblue">
-                                    <div className="relative tracking-[0.26px] leading-[1.5rem] text-[1rem] font-medium">
-                                        <span>{`$10,083.035 `}</span>
-                                        <span className="text-tomato">-30.94YTD</span>
+                                    <div className="relative w-[350px] flex-1 rounded-10xs bg-slateblue flex flex-col items-start justify-start pt-[2rem] pb-[8.875rem] pr-[1.25rem] pl-[2.5rem] box-border gap-[0.313rem] max-w-[350px] min-h-[232px] hover:bg-white hover:text-slateblue">
+                                        <div className="relative tracking-[0.26px] leading-[1.5rem] text-[1rem] font-medium">
+                                            <span>{`$10,083.035 `}</span>
+                                            <span className="text-tomato">-30.94YTD</span>
+                                        </div>
+                                        <h1 className="m-0 relative text-[1.688rem] tracking-[-1.08px] leading-[1.806rem] font-bold font-inherit inline-block min-w-[93.8px] mq450:text-[1.375rem] mq450:leading-[1.438rem]">
+                                            Dash
+                                        </h1>
+                                        {/* Button */}
+                                        <button className="absolute bottom-5 left-5 text-[1rem] py-[0.5rem] px-[1rem] bg-tomato text-white rounded-3xs  opacity-0 transition-opacity duration-300 ease-in-out hover:opacity-50">
+                                            Read More
+                                        </button>
+                                        {/* Invisible hover area */}
+                                        {/* <div className="absolute inset-0 opacity-0 hover:opacity-100"></div> */}
                                     </div>
-                                    <h1 className="m-0 relative text-[1.688rem] tracking-[-1.08px] leading-[1.806rem] font-bold font-inherit inline-block min-w-[93.8px] mq450:text-[1.375rem] mq450:leading-[1.438rem]">
-                                        Dash
-                                    </h1>
-                                    {/* Button */}
-                                    <button className="absolute bottom-5 left-5 text-[1rem] py-[0.5rem] px-[1rem] bg-tomato text-white rounded-3xs  opacity-0 transition-opacity duration-300 ease-in-out hover:opacity-50">
-                                        Read More
-                                    </button>
-                                    {/* Invisible hover area */}
-                                    {/* <div className="absolute inset-0 opacity-0 hover:opacity-100"></div> */}
-                                </div>
                                 </div>
                             </div>
-                            <div className="flex flex-col items-start justify-start gap-[2.719rem] min-w-[486.1999999999971px] max-w-full text-[0.938rem] text-lightsteelblue lg:flex-1 mq750:min-w-full">
+                            <div className="flex flex-col items-start justify-start gap-[2.719rem] max-w-full text-[0.938rem] text-lightsteelblue lg:flex-1 mq750:min-w-full">
                                 <div className="flex flex-row items-start justify-start gap-[1.15rem]">
                                     <img
                                         className="h-6 w-[17px] relative overflow-hidden shrink-0 [debug_commit:f6aba90]"
@@ -370,46 +387,63 @@ function Cryptop06() {
                         </div>
 
 
-                        <div className="self-stretch flex mt-[10rem] sm:flex-row flex-col flex-wrap items-end justify-start gap-[2rem] max-w-full text-[1.688rem] text-white">
+
+
+
+
+
+
+
+
+
+
+
+                        <div className=" p-[2rem] self-stretch flex mt-[10rem] sm:flex-row flex-col flex-wrap items-end justify-evenly gap-[2rem] max-w-full text-[1.688rem] text-white">
                             {/* <div className="w-[388.7px] flex flex-col items-start justify-start pt-[0rem] px-[0rem] pb-[3.125rem] box-border min-h-[512px] max-w-full">
-                                <div className="self-stretch flex flex-col items-start justify-start gap-[3.438rem]"> */}
+<div className="self-stretch flex flex-col items-start justify-start gap-[3.438rem]"> */}
                             {
                                 inputcluster.map((item) => (
                                     <InputCluster key={item.id} item={item} />
                                 ))
                             }
                             {/* </div>
-                            </div> */}
+</div> */}
 
                         </div>
 
 
                     </div>
-                </div>
+                {/* </div> */}
             </section>
+
+
             {/* part8 end */}
+
+
+
+
 
             {/* part9  */}
 
-            <section className="relative  flex flex-row items-end justify-start sm:gap-[1.188rem] max-w-full text-center text-[3.75rem] text-white font-montserrat box-border bg-[url('https://innovio.qodeinteractive.com/wp-content/uploads/2018/10/h4-backround-img-1.png')] bg-cover bg-no-repeat bg-[top] ">
+            <section className="sm:pl-[5rem] pl-0 flex flex-row items-end justify-start sm:gap-[1.188rem] max-w-full text-center text-[3.75rem] text-white font-montserrat box-border bg-[url('https://innovio.qodeinteractive.com/wp-content/uploads/2018/10/h4-backround-img-1.png')] bg-cover bg-no-repeat bg-[top] ">
 
                 <div className="flex-1 flex flex-col items-start justify-end pt-[0rem] px-[0rem] pb-[1.563rem] box-border">
 
-                    <div className="w-[495.4px] flex flex-row items-start justify-start gap-[1.188rem] max-w-full">
+                    <div className=" flex flex-row items-start justify-start gap-[1.188rem] max-w-full">
                         {/* <div className="h-[827.6px] w-px bg-mediumslateblue-200 flex flex-row items-start justify-start relative">
-                            <div className="h-[5px] w-[5px] absolute !m-[0] bottom-[-2.019rem] left-[calc(50%_-_2.5px)] rounded-8xs bg-white" />
-                        </div> */}
-                        <div className="h-[827.6px] flex-1 relative max-w-[calc(100%_-_20px)]">
+            <div className="h-[5px] w-[5px] absolute !m-[0] bottom-[-2.019rem] left-[calc(50%_-_2.5px)] rounded-8xs bg-white" />
+        </div> */}
+                        <div className="h-[827.6px] flex-1 relative ">
                             {/* <div className="absolute top-[0rem] left-[26.769rem] bg-mediumslateblue-200 h-[827.6px] flex flex-row items-end justify-start pt-[12.313rem] px-[0rem] pb-[12.3rem] box-border">
-                                <div className="ml-[-0.125rem] h-[5px] w-[5px] relative rounded-8xs bg-white shrink-0 [debug_commit:f6aba90]" />
-                            </div> */}
-                            <h1 className="m-0 absolute top-[16.194rem] left-[-2.5rem] text-inherit tracking-[-2.4px] leading-[4.05rem] font-bold font-inherit flex items-center w-[475.4px] h-[129.6px] z-[1] mq450:text-[2.25rem] mq450:leading-[2.438rem] mq1050:text-[3rem] mq1050:leading-[3.25rem]">
-                                <span className="w-full">
-                                    <p className="m-0">Mining platform</p>
-                                    <p className="m-0">of the future!</p>
+                <div className="ml-[-0.125rem] h-[5px] w-[5px] relative rounded-8xs bg-white shrink-0 [debug_commit:f6aba90]" />
+            </div> */}
+                            <h1 className="m-0 absolute top-[16.194rem] text-inherit tracking-[-2.4px] leading-[4.05rem] font-bold font-inherit flex items-center  h-[129.6px] z-[1] mq450:text-[2.25rem] mq450:leading-[2.438rem] mq1050:text-[3rem] mq1050:leading-[3.25rem]">
+                                <span className=" mb-8 flex flex-row flex-wrap w-[420px]">
+                                    <p className="m-0 ">Mining platform of the future!</p>
+
                                 </span>
                             </h1>
-                            <button className="cursor-pointer [border:none] py-[1.375rem] pr-[2.181rem] pl-[2.5rem] bg-tomato absolute top-[26.225rem] left-[0rem] rounded-3xs overflow-hidden flex flex-row items-end justify-start gap-[0.606rem]">
+                            <button className="cursor-pointer [border:none] py-[1.375rem] pr-[2.181rem] pl-[2.5rem] bg-tomato absolute top-[26.225rem] left-[1rem] rounded-3xs overflow-hidden flex flex-row items-end justify-start gap-[0.606rem]">
                                 <div className="relative text-[0.875rem] tracking-[0.42px] leading-[0.875rem] font-semibold font-montserrat text-white text-left inline-block min-w-[87.5px]">
                                     Buy Tokens
                                 </div>
@@ -417,7 +451,7 @@ function Cryptop06() {
                                     <img
                                         className="w-[26px] h-[9px] relative overflow-hidden shrink-0"
                                         alt=""
-                                        src={img51}
+                                        src={imgy}
                                     />
                                 </div>
                             </button>
@@ -429,22 +463,21 @@ function Cryptop06() {
                                     <img
                                         className="w-[26px] h-[9px] relative overflow-hidden shrink-0"
                                         alt=""
-                                        src={img52}
+                                        src={imgy}
                                     />
                                 </div>
                             </button>
                         </div>
                     </div>
-                    {/* <img
-          className="absolute  w-[49px] h-[49px] z-[11]"
-          alt=""
-          src={img53}
-        /> */}
-
-
+                    {/* top pe le jane wala icon <img
+className="absolute  w-[49px] h-[49px] z-[11]"
+alt=""
+src={img53}
+/> */}
                 </div>
 
             </section>
+
 
 
 
@@ -525,7 +558,7 @@ function InputCluster({ item }) {
                 alt=""
                 src={item.img}
             />
-            <div className="flex-1 flex flex-col items-start justify-start pt-[1.206rem] px-[0rem] pb-[0rem] box-border min-w-[187px]">
+            <div className="flex-1 flex flex-col items-start justify-start max-w-full pt-[1.206rem] px-[0rem] pb-[0rem] box-border min-w-[187px]">
                 <div className="self-stretch flex flex-col items-start justify-start gap-[1.594rem]">
                     <div className="self-stretch flex flex-col items-start justify-start gap-[0.513rem]">
                         <h1 className="m-0 relative text-inherit tracking-[-1.08px] leading-[2.025rem] font-bold font-inherit shrink-0 [debug_commit:f6aba90] mq450:text-[1.375rem] mq450:leading-[1.625rem]">

@@ -12,16 +12,16 @@ function Cryptop03() {
 
   return (
     <div>
-      <section className="absolute  flex flex-row items-start justify-start sm:gap-[1.188rem] max-w-full text-center sm:text-[3.75rem] text-[3.4rem] text-white font-montserrat overflow-hidden">
+      <section className="relative  flex flex-row items-start justify-start sm:gap-[1.188rem] max-w-full text-center sm:text-[3.75rem] text-[3.4rem] text-white font-montserrat overflow-hidden">
         <div className="flex-1 flex flex-col items-start justify-start pt-[0.938rem] px-[0rem] pb-[0rem] box-border ">
-          <div className="w-[1233.8px] flex flex-col items-end justify-start py-[0rem] pr-[1.25rem] pl-[0rem] box-border gap-[2.688rem] max-w-full">
-            <div className="w-[1125px] flex flex-row items-start justify-center py-[0rem] px-[1.25rem] box-border max-w-full">
-              <h1 className="m-0 sm:w-[548px] relative text-inherit tracking-[-2.4px] leading-[4.05rem] font-bold font-inherit flex items-center justify-center shrink-0 z-[2] mq450:text-[2.25rem] mq450:leading-[2.438rem] mq1050:text-[3rem] mq1050:leading-[3.25rem] left-7 sm:left-0">
+          <div className=" flex flex-col items-center justify-start py-[0rem] pr-[1.25rem] pl-[0rem] box-border gap-[2.688rem] max-w-full">
+            <div className=" flex flex-row items-center justify-center py-[0rem] px-[1.25rem] box-border max-w-full">
+              <h1 className="m-0  relative sm:text-inherit text-[3rem] tracking-[-2.4px] leading-[4.05rem] font-bold font-inherit flex items-center justify-center shrink-0 z-[2] mq450:text-[2.25rem] mq450:leading-[2.438rem] mq1050:text-[3rem] mq1050:leading-[3.25rem] ">
                 The right solutions
               </h1>
             </div>
-            <div className="w-[1166.2px] flex flex-row items-start justify-center py-[0rem] px-[1.25rem] box-border max-w-full text-[1rem]">
-              <div className="w-[593px] text-[1.2rem] flex flex-row flex-wrap sm:flex-nowrap items-start justify-between gap-[1.25rem] max-w-full mq750:flex-wrap mq750:justify-center left-7">
+            <div className=" flex flex-row items-start justify-center py-[0rem] px-[1.25rem] box-border max-w-full text-[1rem]">
+              <div className=" text-[1.2rem] flex flex-row flex-wrap sm:flex-nowrap items-start justify-between gap-[1.25rem] max-w-full mq750:flex-wrap mq750:justify-center">
                 <CategoryButton category="Technology" isActive={activeCategory === 'Technology'} onClick={handleCategoryClick} />
                 <CategoryButton category="Branding" isActive={activeCategory === 'Branding'} onClick={handleCategoryClick} />
                 <CategoryButton category="Marketing" isActive={activeCategory === 'Marketing'} onClick={handleCategoryClick} />
@@ -33,14 +33,14 @@ function Cryptop03() {
               {activeCategory === 'Technology' && (
                 <div>
                   {/* Technology content */}
-                  <div className="self-stretch flex flex-col sm:flex-row items-start justify-center gap-[6.094rem] max-w-full text-left text-[0.938rem] text-lightsteelblue mq1050:flex-wrap">
+                  <div className="self-stretch flex flex-col sm:flex-row items-start justify-center gap-[3.094rem] max-w-full text-left text-[0.938rem] text-lightsteelblue mq1050:flex-wrap">
                     <img
-                      className="h-[411.3px] flex-1 relative max-w-full overflow-hidden object-cover sm:min-w-[622px] z-[2] mq750:min-w-full left-[2rem] sm:left-0"
+                      className="h-[411.3px] flex-1 relative max-w-full overflow-hidden object-cover sm:min-w-[622px] z-[2] mq750:min-w-full left-[1rem] sm:left-4"
                       loading="lazy"
                       alt=""
                       src={img2}
                     />
-                    <div className=" flex  flex-col items-start justify-start pt-[3.444rem]  pb-[0rem] box-border">
+                    <div className=" flex  flex-col items-start justify-start pt-[3.444rem] sm:pl-[3.5rem] pl-4 pb-[0rem] box-border">
                       <div className="flex flex-col items-start justify-start gap-[2.063rem]">
                         <div className="flex flex-col items-start justify-start gap-[1.594rem] ">
                           <div className="relative leading-[1.5rem] font-medium z-[2] ">
@@ -299,7 +299,7 @@ function Cryptop03() {
 // Button component for each category
 const CategoryButton = ({ category, isActive, onClick }) => {
   return (
-    <div className={`w-[136.4px] flex flex-row items-end justify-start gap-[0.813rem] text-tomato cursor-pointer ${isActive ? 'active' : ''}`} onClick={() => onClick(category)}>
+    <div className={` flex flex-row items-end justify-start gap-[0.813rem] text-tomato cursor-pointer ${isActive ? 'active' : ''}`} onClick={() => onClick(category)}>
       <div className="flex flex-col items-start justify-end pt-[0rem] px-[0rem] pb-[0.406rem]">
         {isActive && <img className="w-[26px] h-[9px] relative overflow-hidden shrink-0" alt="" src={img1} />}
       </div>

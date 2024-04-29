@@ -12,9 +12,10 @@ import Cryptop04 from '../Components/Cryptop04'
 import Cryptop05 from '../Components/Cryptop05'
 import Cryptop06 from '../Components/Cryptop06'
 import Cryptop7 from '../Components/Cryptop7'
+import Footer from '../Components/Footer'
 function Home() {
     return (
-        <div className='h-[100vh] bg-darkblue-100 '>
+        <div className='h-[100vh] bg-darkblue-100'>
             <Navbar />
             <ScrollIndicator left="5%" right="auto" ballOffset="15" />
             <ScrollIndicator left="35%" right="auto" ballOffset="30" />
@@ -39,7 +40,7 @@ function Home() {
                         <p className="m-0">diam nonummy nibhie euismod tincidunt utlaoreet.</p>
                     </h3>
 
-                    <button className="cursor-pointer py-[1.375rem] pr-[1.938rem] pl-[2.5rem] bg-tomato w-[192.4px] absolute bottom-[37.25%] sm:bottom-[25.25%] left-[7%] rounded-3xs box-border overflow-hidden shrink-0 flex flex-row items-end justify-start gap-[0.606rem] z-[1] border-[2px] border-solid border-tomato">
+                    <button className="cursor-pointer py-[1.375rem] pr-[1.938rem] pl-[2.5rem] bg-tomato w-[192.4px] absolute bottom-[37.25%] sm:bottom-[25.25%] sm:left-[7%] left-[5%] rounded-3xs box-border overflow-hidden shrink-0 flex flex-row items-end justify-start gap-[0.606rem] z-[1] border-[2px] border-solid border-tomato">
                         <div className="relative text-[0.875rem] tracking-[0.42px] leading-[0.875rem] font-semibold font-montserrat text-white text-left inline-block min-w-[81.7px]">
                             Read More
                         </div>
@@ -72,53 +73,45 @@ function Home() {
                 </div>
             </div>
 
-{/*             
-<div className='flex sm:flex-row flex-col flex-wrap sm:mt-[0rem] mt-[15rem] gap-[23rem]'>
-<div className='sm:ml-[6.6rem] ml-[1.55rem]'>
-    <Cardpart2 name={"Use network to buy & sell"} name1={"shares"} />
-</div>
 
-<div className='sm:ml-[5.6rem] ml-[1.55rem]'>
-    <Cardpart2 name={"Introducing the"} name1={"marketplace sistem"} />
-</div>
+            <div className='flex relative sm:flex-row flex-col flex-wrap sm:mt-[0rem] mt-[15rem] justify-evenly px-[1.5rem]'>
+                <div className='mb-8'>
+                    <Cardpart2 name={"Use network to buy & sell shares"} />
+                </div>
 
-<div className='sm:ml-[5.6rem] ml-[1.55rem]'>
-    <Cardpart2 name={"Powering data for the"} name1={"new blockchain"} />
-</div>
-</div> */}
+                <div className='mb-8'>
+                    <Cardpart2 name={"Introducing the marketplace sistem"} />
+                </div>
 
-
-
-<div className=' bg-darkblue-100 sm:mt-[0rem] mt-[15rem]'>
-<Cryptop03 />
-</div>
+                <div className='mb-8'>
+                    <Cardpart2 name={"Powering data for the new blockchain"} />
+                </div>
+            </div>
 
 
- <div className='p-5 sm:mt-[45rem] mt-[90rem]'>
-<Cryptop04 />
-</div> 
-           <div className='mt-[10rem]'>
-
-<Cryptop05 />
-</div> 
+            <div className=' bg-darkblue-100 sm:mt-[10rem] mt-[10rem] sm:px-[2rem] px-2'>
+                <Cryptop03 />
+            </div>
 
 
+            <div className='p-5 mt-[5rem] '>
+                <Cryptop04 />
+            </div>
+            {/* <div className='mt-[10rem]'>
 
-<div className='mt-[10rem]'>
-
-<Cryptop06 />
-</div>
-
-
-<div className='mb-[10rem]'></div>
-
-
-            {/* 
-            
+                <Cryptop05 />
+            </div> */}
 
 
 
- */}
+            <div className='mt-[10rem]'>
+                <Cryptop06 />
+            </div>
+
+
+            <div className='mb-[10rem]'>
+                <Footer />
+            </div>
 
         </div>
     )

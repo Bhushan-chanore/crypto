@@ -24,6 +24,8 @@ const ScrollIndicator = ({ left = '5%', right = '0', ballOffset = 13  }) => {
   return (
     <div style={{ ...styles.scrollIndicator, left, right }}>
       <div style={{ ...styles.scrollBall, top: `calc(${scrollPercentage}% + ${ballOffset}%)` }}></div>
+      <div style={{ ...styles.scrollBall, top: `calc(${scrollPercentage}% - ${3*ballOffset}%)`}}></div>
+      <div style={{ ...styles.scrollBall, top: `calc(${scrollPercentage}% - ${8*ballOffset}%)`}}></div>
     </div>
   );
 };
@@ -35,6 +37,7 @@ const styles = {
     height: '100%',
     width: '0.1px', // Adjust width as needed
     backgroundColor: 'rgb(41 ,60 ,204)', // Background color of the scroll indicator
+    
   },
   scrollBall: {
     position: 'absolute',

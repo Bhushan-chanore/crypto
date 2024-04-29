@@ -19,9 +19,9 @@ function Hero() {
     return (
         <div>
 
-            <div style={{ width: "200px", height: "200px", display: "flex", justifyContent:"center" , alignItems:"center" , flexWrap: "wrap" }}>
+            <div>
 
-                <div className="h-[400px] w-[430px] sm:h-[550px] sm:w-[500px] absolute !m-[0] right-[0.125rem] sm:bottom-[1.125rem] bottom-[-10rem] overflow-hidden" >
+                <div className="h-[400px] w-[430px] sm:h-[550px] sm:w-[550px] absolute !m-[0] right-[0.125rem] sm:bottom-[1.125rem] bottom-[-10rem] overflow-hidden" >
                     {/* <img
                         className="absolute top-[51.938rem] left-[2.938rem] w-[39px] h-[59px] overflow-hidden object-cover z-[1]"
                         loading="lazy"
