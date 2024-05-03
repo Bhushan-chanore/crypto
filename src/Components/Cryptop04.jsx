@@ -7,8 +7,8 @@ function Cryptop04() {
   return (
     <div>
       <section className="relative max-w-full  text-left text-lightsteelblue font-montserrat flex sm:flex-row flex-col sm:gap-[9rem] gap-8 items-center justify-center px-4">
-        <div className="w-full max-w-[425.6px] flex flex-col sm:items-start items-center gap-6">
-          <h1 className="text-[2.6rem] font-extrabold leading-[2.5rem] text-white ">
+        <div className="w-full max-w-[425.6px] flex flex-col sm:items-start items-center justify-start gap-6">
+          <h1 className="text-[2.6rem] font-extrabold justify-center items-center leading-[2.5rem] text-white ">
             All-in-one gateway
           </h1>
           <div className="flex flex-col items-start gap-4">

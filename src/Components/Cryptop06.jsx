@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import img1 from "../Images/h4lightteammemberimg1jpg@2x.png"
 import img5 from "../Images/h4lightteammemberimg2jpg@2x.png"
 import img6 from "../Images/h4lightteammemberimg3jpg@2x.png"
@@ -10,22 +10,26 @@ import img11 from "../Images/h4lightteammemberimg8jpg@2x.png"
 import img12 from "../Images/h4holdersingleimg2png@2x.png"
 import img2 from "../Images/icon-9.svg"
 import img3 from "../Images/icon-10.svg"
-import img4 from "../Images/icon-11.svg"
+import img4 from "../Images/linkdin(www.recag.in)(www.bharat-tech.org).png"
 import img33 from "../Images/icon-33.svg"
 import img34 from "../Images/svg.svg"
 
-import img41 from "../Images/h4iconwithtextimg1png@2x.png"
-import img42 from "../Images/h4iconwithtextimg2png@2x.png"
-import img43 from "../Images/h4iconwithtextimg3png@2x.png"
-import img44 from "../Images/h4iconwithtextimg4png@2x.png"
-import img45 from "../Images/h4iconwithtextimg5png@2x.png"
-import img46 from "../Images/h4iconwithtextimg6png@2x.png"
-
-
+import img41 from "../Images/icons8-source-code-75.png"
+import img42 from "../Images/icons8-dataset-100.png"
+import img43 from "../Images/icons8-ai-75.png"
+import img44 from "../Images/icons8-cap-75.png"
+import img45 from "../Images/icons8-search-in-list-75.png"
+import img46 from "../Images/icons8-competition-80.png"
+import img47 from "../Images/icons8-software-75.png"
+import img49 from "../Images/icons8-community-75.png"
+import img48 from "../Images/icons8-code-fork-75.png"
 import imgy from "../Images/svg-1.svg"
 import img61 from "../Images/icon-35.svg"
 
+import "../Pages/tada.css"
 function Cryptop06() {
+
+    const [isHovered, setIsHovered] = useState(false);
 
     const card = [
         {
@@ -82,33 +86,48 @@ function Cryptop06() {
     const inputcluster = [
         {
             id: "1",
-            heading: "Open source",
+            heading: "Code",
             img: img41
         },
         {
             id: "2",
-            heading: "High securiity",
+            heading: "Dataset",
             img: img42
         },
         {
             id: "3",
-            heading: "Block chains",
+            heading: "Model",
             img: img43
         },
         {
             id: "4",
-            heading: "Fast services",
+            heading: "Learn",
             img: img44
         },
         {
             id: "5",
-            heading: "Free updates",
+            heading: "Research",
             img: img45
         },
         {
             id: "6",
-            heading: "Awesome support",
+            heading: "Host competitions",
             img: img46
+        },
+        {
+            id: "7",
+            heading: "Open source",
+            img: img47
+        },
+        {
+            id: "8",
+            heading: "Code together",
+            img: img48
+        },
+        {
+            id: "9",
+            heading: "Community",
+            img: img49
         },
     ]
     return (
@@ -144,20 +163,21 @@ function Cryptop06() {
 
 
 
-            <section className=" mt-[5rem] sm:px-[7rem] p-0 flex flex-row items-start justify-start sm:gap-[1.188rem] max-w-full text-center sm:text-[3.75rem] text-[3rem] text-white font-montserrat ">
+            <section className="  mt-[5rem] sm:px-[7rem] p-0 flex flex-row items-start justify-start sm:gap-[1.188rem] max-w-full text-center sm:text-[3.75rem] text-[3rem] text-white font-montserrat ">
 
                 {/* <div className="flex-1 flex  sm:flex-row flex-col items-start justify-start pt-[0rem] px-[0rem] pb-[1.563rem] box-border "> */}
                 {/* part7 */}
                 <div className='mt-[10rem]'></div>
                 <div className="  self-stretch  flex flex-row flex-wrap  items-start justify-start  max-w-full lg:flex-wrap gap-[11rem]">
-                    <div className=" flex flex-row items-end justify-start gap-[1.188rem]  max-w-full lg:flex-1 mq450:flex-wrap mq750:min-w-full">
+                    <div className=" flex flex-row  items-end justify-start gap-[1.188rem]  max-w-full lg:flex-1 mq450:flex-wrap mq750:min-w-full">
 
-                        <div className=" flex flex-row items-start justify-start pt-[0rem] px-[0rem] pb-[3.438rem] box-border min-w-[430px] min-h-[352px] max-w-full">
+                        <div className=" flex flex-row items-start justify-start pt-[0rem] px-[0rem] pb-[3.438rem] box-border min-w-[430px] min-h-[352px] max-w-full p-1">
                             <div className="self-stretch flex flex-col items-start justify-start gap-[2.038rem] max-w-full">
                                 <h1 className="m-0 p-1 text-[3.4rem] relative  tracking-[-2px] leading-[3.188rem] font-bold font-inherit flex items-center max-w-full box-border pr-[0rem] z-[4] mq450:text-[1.875rem] mq450:leading-[1.938rem] mq1050:text-[2.5rem] mq1050:leading-[2.563rem]">
                                     The right solution
                                 </h1>
-                                <div className="self-stretch flex flex-col items-start justify-start gap-[2.356rem] max-w-full text-[1.1rem] text-royalblue-100 ">
+
+                                <div className="self-stretch p-2 flex flex-col items-start justify-start gap-[2.356rem] max-w-full text-[1.1rem] text-royalblue-100 ">
                                     <div className="self-stretch flex flex-col items-start justify-start gap-[0.5rem] ">
                                         <div className="w-[350.8px] flex flex-row items-end justify-between py-[0rem] pr-[1.25rem] pl-[0rem] box-border max-w-full gap-[1.25rem]">
                                             <div className="flex flex-col items-start justify-end pt-[0rem] px-[0rem] pb-[0.125rem]">
@@ -215,16 +235,21 @@ function Cryptop06() {
                                             </button>
                                         </div>
                                         <div className="self-stretch h-1.5 rounded-10xs bg-white overflow-hidden shrink-0 flex flex-row items-start justify-start max-w-full z-[4]">
-                                            <div className="self-stretch w-[396.2px] relative bg-darkblue-200 overflow-hidden shrink-0 max-w-full" />
+                                            
+                                        <div className="self-stretch rounded-10xs bg-white overflow-hidden flex flex-row items-start justify-start z-[4]">
+                                            <div className="h-1.5 w-[390.8px] relative bg-royalblue-100 overflow-hidden shrink-0" />
+                                        </div>
                                         </div>
                                     </div>
                                 </div>
+
+
                             </div>
                         </div>
                     </div>
-                    <div className="flex-1 flex flex-row items-end justify-end gap-[1.188rem] min-w-[400px] max-w-full mq750:flex-wrap mq750:min-w-full">
+                    <div className="flex-1 flex flex-row items-end justify-end gap-[1.188rem] min-w-[400px] max-w-full mq750:flex-wrap mq750:min-w-full p-2">
                         <img
-                            className="h-[300.7px] sm:h-[350px] flex-1 relative  overflow-hidden object-cover sm:max-w-[830px] max-w-[430] z-[4] mq450:min-w-full"
+                            className="h-[300.7px] sm:h-[295px] flex-1 relative  overflow-hidden object-cover sm:max-w-[830px] max-w-[430] z-[4] mq450:min-w-full"
                             loading="lazy"
                             alt=""
                             src={img12}
@@ -296,11 +321,11 @@ function Cryptop06() {
                                 </div>
                             </div>
                             <div className="flex flex-col items-start bottom-1 justify-end pt-[0rem] px-[0rem] pb-[0.744rem] box-border  max-w-full text-[3.125rem] text-white lg:flex-1 mq750:min-w-full sm:pt-[6.5rem]">
-                                <div className="flex flex-col items-start justify-start gap-[1.344rem] max-w-full">
+                                <div className="flex flex-col items-center justify-center gap-[1.344rem] max-w-full">
                                     <h1 className="m-0 relative text-inherit tracking-[-2px] leading-[3.188rem] font-bold font-inherit inline-block max-w-full z-[6] mq450:text-[1.875rem] mq450:leading-[1.938rem] mq1050:text-[2.5rem] mq1050:leading-[2.563rem]">
                                         Our crypto pricing
                                     </h1>
-                                    <div className="flex flex-row items-start justify-start gap-[1.15rem] text-[0.938rem] text-lightsteelblue">
+                                    <div className="flex p-1 flex-row items-start justify-start gap-[0rem] text-[0.938rem] text-lightsteelblue">
                                         <img
                                             className="h-6 w-[17px] relative overflow-hidden shrink-0"
                                             alt=""
@@ -308,11 +333,7 @@ function Cryptop06() {
                                         />
                                         <div className="relative leading-[1.5rem] font-medium z-[6]">
                                             <p className="m-0">
-                                                Vel illum dolore eu feugiat nulla facilisis at vero eros
-                                                et accu qui
-                                            </p>
-                                            <p className="m-0">
-                                                blandit praesent luptatum zzril delenit augue duis.
+                                                Vel illum dolore eu feugiat nulla facilisis at vero eroset acc uquiblandit praesent luptatum zzril delenit augue duis.
                                             </p>
                                         </div>
                                     </div>
@@ -354,8 +375,8 @@ function Cryptop06() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="flex flex-col items-start justify-start gap-[2.719rem] max-w-full text-[0.938rem] text-lightsteelblue lg:flex-1 mq750:min-w-full">
-                                <div className="flex flex-row items-start justify-start gap-[1.15rem]">
+                            <div className="flex flex-col items-center justify-center gap-[2.719rem] max-w-full text-[0.938rem] text-lightsteelblue lg:flex-1 mq750:min-w-full">
+                                <div className="flex flex-row p-1 items-start justify-start gap-[0.5rem]">
                                     <img
                                         className="h-6 w-[17px] relative overflow-hidden shrink-0 [debug_commit:f6aba90]"
                                         alt=""
@@ -433,7 +454,7 @@ function Cryptop06() {
                         {/* <div className="h-[827.6px] w-px bg-mediumslateblue-200 flex flex-row items-start justify-start relative">
             <div className="h-[5px] w-[5px] absolute !m-[0] bottom-[-2.019rem] left-[calc(50%_-_2.5px)] rounded-8xs bg-white" />
         </div> */}
-                        <div className="h-[827.6px] flex-1 relative ">
+                        <div className="h-[827.6px] p-[0.5rem] flex-1 relative ">
                             {/* <div className="absolute top-[0rem] left-[26.769rem] bg-mediumslateblue-200 h-[827.6px] flex flex-row items-end justify-start pt-[12.313rem] px-[0rem] pb-[12.3rem] box-border">
                 <div className="ml-[-0.125rem] h-[5px] w-[5px] relative rounded-8xs bg-white shrink-0 [debug_commit:f6aba90]" />
             </div> */}
@@ -443,7 +464,7 @@ function Cryptop06() {
 
                                 </span>
                             </h1>
-                            <button className="cursor-pointer [border:none] py-[1.375rem] pr-[2.181rem] pl-[2.5rem] bg-tomato absolute top-[26.225rem] left-[1rem] rounded-3xs overflow-hidden flex flex-row items-end justify-start gap-[0.606rem]">
+                            <button className="cursor-pointer [border:none] py-[1.375rem] pr-[2.181rem] pl-[2.5rem] bg-tomato absolute top-[26.225rem] left-[2rem] rounded-3xs overflow-hidden flex flex-row items-end justify-start gap-[0.606rem]">
                                 <div className="relative text-[0.875rem] tracking-[0.42px] leading-[0.875rem] font-semibold font-montserrat text-white text-left inline-block min-w-[87.5px]">
                                     Buy Tokens
                                 </div>
@@ -489,7 +510,7 @@ src={img53}
 const Card = ({ data }) => {
     return (
         <div className='mb-[2rem]'>
-            <div className="h-[431.5px] sm:w-[280px] w-[370px] flex flex-col items-start justify-start gap-[1.513rem] text-left text-[0.813rem] text-royalblue-100 font-montserrat">
+            <div className="h-[431.5px] sm:w-[280px] w-[370px] flex flex-col items-center justify-center gap-[1.513rem] text-left text-[0.813rem] text-royalblue-100 font-montserrat">
                 <img
                     className="self-stretch flex-1 relative max-w-full overflow-hidden max-h-full object-cover"
                     loading="lazy"
@@ -497,10 +518,10 @@ const Card = ({ data }) => {
                     src={data.img}
                 />
                 <div
-                    className="flex flex-col items-start justify-start py-[0rem] pr-[1.25rem] pl-[0rem] gap-[2.1rem]"
+                    className="flex flex-col items-center justify-center py-[0rem] pr-[1.25rem] pl-[0rem] gap-[2.1rem]"
 
                 >
-                    <div className="flex flex-col items-start justify-start gap-[0.363rem]">
+                    <div className="flex flex-col items-center justify-center gap-[0.363rem]">
                         <div
                             className="relative text-[1.1rem] tracking-[0.26px] leading-[0.975rem] capitalize font-medium inline-block min-w-[66.4px]"
 
@@ -512,28 +533,13 @@ const Card = ({ data }) => {
                         </h1>
                     </div>
                     <div
-                        className="w-[179.3px] flex flex-row items-start justify-start py-[0rem] px-[1rem] box-border"
+                        className="w-[179.3px] flex flex-row items-center justify-center py-[0rem] px-[1rem] box-border"
 
                     >
-                        <div className="flex-1 flex flex-row items-start justify-between gap-[1.25rem]">
-                            <div className="h-[20.9px] w-[19px] relative">
-                                <div className="absolute top-[-0.937rem] left-[-0.937rem] rounded-5xl-5 box-border w-[49px] h-[49px] border-[2px] border-solid border-mediumslateblue-100" />
-                                <img
-                                    className="absolute left-[0rem] w-full h-full overflow-hidden z-[1]"
-                                    alt=""
-                                    src={img2}
-                                />
-                            </div>
-                            <div className="h-[20.9px] w-[19px] relative">
-                                <div className="absolute top-[-0.937rem] left-[-0.937rem] rounded-5xl-5 box-border w-[49px] h-[49px] border-[2px] border-solid border-mediumslateblue-100" />
-                                <img
-                                    className="absolute  left-[0rem] w-full h-full overflow-hidden z-[1]"
-                                    alt=""
-                                    src={img3}
-                                />
-                            </div>
-                            <div className="h-[20.9px] w-[19px] relative">
-                                <div className="absolute top-[-0.937rem] left-[-0.937rem] rounded-5xl-5 box-border w-[49px] h-[49px] border-[2px] border-solid border-mediumslateblue-100" />
+                        <div className="flex-1 flex flex-row items-center justify-center gap-[1.25rem]">
+                            
+                            <div className="h-[50.9px] w-[50px] relative">
+                                
                                 <img
                                     className="absolute  left-[0rem] w-full h-full overflow-hidden z-[1]"
                                     alt=""
@@ -549,48 +555,89 @@ const Card = ({ data }) => {
 }
 
 function InputCluster({ item }) {
+    const [isHovered, setIsHovered] = useState(false);
 
+    const handleMouseEnter = () => {
+      setIsHovered(true);
+    };
+  
+    const handleMouseLeave = () => {
+      setIsHovered(false);
+    };
+  
     return (
-        <div className="self-stretch flex flex-row items-start justify-start gap-[2rem] text-left text-[1.688rem] text-white font-montserrat mq450:flex-wrap">
-            <img
-                className="h-[78px] w-[70px] relative overflow-hidden shrink-0 object-cover hover:transform hover:translate-y-[-10px] transition-transform duration-250 ease-in-out"
-                loading="lazy"
-                alt=""
-                src={item.img}
-            />
-            <div className="flex-1 flex flex-col items-start justify-start max-w-full pt-[1.206rem] px-[0rem] pb-[0rem] box-border min-w-[187px]">
-                <div className="self-stretch flex flex-col items-start justify-start gap-[1.594rem]">
-                    <div className="self-stretch flex flex-col items-start justify-start gap-[0.513rem]">
-                        <h1 className="m-0 relative text-inherit tracking-[-1.08px] leading-[2.025rem] font-bold font-inherit shrink-0 [debug_commit:f6aba90] mq450:text-[1.375rem] mq450:leading-[1.625rem]">
-                            {item.heading}
-                        </h1>
-                        <div className="relative text-[1rem]  leading-[1.5rem] font-medium text-lightsteelblue shrink-0 [debug_commit:f6aba90]">
-                            <p className="m-0">Lorem proin gravida nibh vel velit aua</p>
-                            <p className="m-0">liquean sollicitudin lorem quis bibe</p>
-                            <p className="m-0">auctor, nisi elit.</p>
-                        </div>
-                    </div>
-                    <div
-                        className="rounded-3xs flex flex-row items-start justify-start gap-[0.875rem] text-[0.875rem]"
-                    >
-                        <div className="flex flex-col items-start justify-start pt-[1rem] px-[0rem] pb-[0rem]">
-                            <div className="relative tracking-[0.42px] text-[1rem] leading-[0.875rem] font-semibold inline-block min-w-[81.7px]">
-                                Read More
-                            </div>
-                        </div>
-                        <div className="h-[46px] w-[46px] relative rounded-27xl box-border border-[2px] border-solid border-mediumslateblue-100">
-                            <div className="absolute top-[calc(50%_-_7.5px)] left-[calc(50%_-_0.5px)] bg-white w-px h-[15px]" />
-                            <div className="absolute top-[calc(50%_-_0.5px)] left-[calc(50%_-_7.5px)] bg-white w-[15px] h-px z-[1]" />
-                        </div>
-                    </div>
-                </div>
+      <div
+        className={`self-stretch flex flex-row items-start justify-start gap-[2rem] text-left text-[1.688rem] text-white font-montserrat mq450:flex-wrap bg-cardblue p-8 rounded-xl shadow-lg ${
+          isHovered ? 'animated tada' : ''
+        }`}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      >
+        <img
+          className="h-[78px] w-[70px] relative overflow-hidden shrink-0 object-cover hover:transform hover:translate-y-[-10px] transition-transform duration-250 ease-in-out"
+          loading="lazy"
+          alt=""
+          src={item.img}
+        />
+        <div className="flex-1 flex flex-col items-start justify-start max-w-full pt-[1.206rem] px-[0rem] pb-[0rem] box-border min-w-[187px]">
+          <div className="self-stretch flex flex-col items-start justify-start gap-[1.594rem]">
+            <div className="self-stretch flex flex-col items-start justify-start gap-[0.513rem]">
+              <h1 className="m-0 relative text-inherit tracking-[-1.08px] leading-[2.025rem] font-bold font-inherit shrink-0 [debug_commit:f6aba90] mq450:text-[1.375rem] mq450:leading-[1.625rem]">
+                {item.heading}
+              </h1>
+              <div className="relative text-[1rem]  leading-[1.5rem] font-medium text-lightsteelblue shrink-0 [debug_commit:f6aba90]">
+                <p className="m-0">Lorem proin gravida nibh vel velit aua</p>
+                <p className="m-0">liquean sollicitudin lorem quis bibe</p>
+                <p className="m-0">auctor, nisi elit.</p>
+              </div>
             </div>
+            <div className="rounded-3xs flex flex-row items-start justify-start gap-[0.875rem] text-[0.875rem]">
+              <div className="flex flex-col items-start justify-start pt-[1rem] px-[0rem] pb-[0rem]">
+                <div className="relative tracking-[0.42px] text-[1rem] leading-[0.875rem] font-semibold inline-block min-w-[81.7px]">
+                  Read More
+                </div>
+              </div>
+              <div className="h-[46px] w-[46px] relative rounded-27xl box-border border-[2px] border-solid border-mediumslateblue-100">
+                <div className="absolute top-[calc(50%_-_7.5px)] left-[calc(50%_-_0.5px)] bg-white w-px h-[15px]" />
+                <div className="absolute top-[calc(50%_-_0.5px)] left-[calc(50%_-_7.5px)] bg-white w-[15px] h-px z-[1]" />
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     );
-}
+  };
+
+  
+
+  const ProgressBar = () => {
+      const [progress, setProgress] = useState(0);
+  
+      useEffect(() => {
+          const interval = setInterval(() => {
+              // Increment progress by 10% every second
+              setProgress((prevProgress) => (prevProgress + 10) % 101);
+          }, 1000);
+  
+          return () => clearInterval(interval);
+      }, []);
+  
+      return (
+          <div className="self-stretch rounded-10xs bg-white overflow-hidden flex flex-row items-start justify-start z-[4]">
+              <div className="h-1 w-[304.8px] relative overflow-hidden shrink-0">
+                  <div className="progress-bar bg-blue-700 text-xs font-medium text-white text-center leading-none rounded-full" style={{ width: `${progress}%` }}>
+                      {progress}%
+                  </div>
+              </div>
+          </div>
+      );
+  };
+  
+
+  
 
 
-
+  
 
 
 export default Cryptop06

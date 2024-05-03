@@ -13,8 +13,8 @@ function Cryptop03() {
   return (
     <div>
       <section className="relative  flex flex-row items-start justify-start sm:gap-[1.188rem] max-w-full text-center sm:text-[3.75rem] text-[3.4rem] text-white font-montserrat overflow-hidden">
-        <div className="flex-1 flex flex-col items-start justify-start pt-[0.938rem] px-[0rem] pb-[0rem] box-border ">
-          <div className=" flex flex-col items-center justify-start py-[0rem] pr-[1.25rem] pl-[0rem] box-border gap-[2.688rem] max-w-full">
+        <div className="flex-1 flex flex-col items-start justify-center pt-[0.938rem] px-[0rem] pb-[0rem] box-border ">
+          <div className=" flex flex-col items-center justify-center py-[0rem] pr-[1.25rem] pl-[1rem] box-border gap-[2.688rem] max-w-full">
             <div className=" flex flex-row items-center justify-center py-[0rem] px-[1.25rem] box-border max-w-full">
               <h1 className="m-0  relative sm:text-inherit text-[3rem] tracking-[-2.4px] leading-[4.05rem] font-bold font-inherit flex items-center justify-center shrink-0 z-[2] mq450:text-[2.25rem] mq450:leading-[2.438rem] mq1050:text-[3rem] mq1050:leading-[3.25rem] ">
                 The right solutions

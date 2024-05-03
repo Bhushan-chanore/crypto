@@ -116,7 +116,7 @@ function Hero() {
                             src={img4}
                         />
                         <img
-                            className="absolute top-[15.5rem] left-[5.6565rem] w-[49px] h-[58.5px] overflow-hidden object-cover z-[10]"
+                            className="absolute top-[15.5rem] left-[5.6565rem] w-[49px] h-[58.5px] overflow-hidden object-cover z-[9]"
                             alt=""
                             src={img4}
                         />
