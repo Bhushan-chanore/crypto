@@ -249,7 +249,7 @@ function Cryptop06() {
                     </div>
                     <div className="flex-1 flex flex-row items-end justify-end gap-[1.188rem] min-w-[400px] max-w-full mq750:flex-wrap mq750:min-w-full p-2">
                         <img
-                            className="h-[300.7px] sm:h-[295px] flex-1 relative  overflow-hidden object-cover sm:max-w-[830px] max-w-[430] z-[4] mq450:min-w-full"
+                            className="h-[280.7px] sm:h-[275px] flex-1 relative  overflow-hidden object-cover  z-[4] mq450:min-w-full"
                             loading="lazy"
                             alt=""
                             src={img12}
@@ -286,7 +286,7 @@ function Cryptop06() {
 
 
 
-                        <div className="  flex sm:flex-row flex-col items-start justify-evenly pt-[0rem]  pb-[1.175rem] box-border max-w-full gap-[3.25rem] lg:flex-wrap sm:px-[5rem] px-1">
+                        <div className="  flex sm:flex-row flex-col items-start justify-evenly pt-[0rem]  pb-[1.175rem] box-border max-w-full gap-[3.25rem] lg:flex-wrap ">
                             <div className=" flex sm:flex-row flex-col items-start justify-start gap-[1.875rem]   lg:flex-1 mq750:flex-wrap mq750:min-w-full pl-8">
                                 <div className="relative flex-1 rounded-10xs bg-slateblue flex flex-col items-start justify-start pt-[2rem] pb-[8.875rem] pr-[1.25rem] pl-[2.5rem] box-border gap-[0.313rem] max-w-[350px] w-[350px] min-h-[232px] hover:bg-white hover:text-slateblue">
                                     <div className="relative tracking-[0.26px] leading-[1.5rem] text-[1rem] font-medium">
@@ -340,7 +340,7 @@ function Cryptop06() {
                                 </div>
                             </div>
                         </div>
-                        <div className=" flex sm:flex-row flex-col items-start justify-evenly pt-[0rem]  pb-[1.175rem] box-border max-w-full gap-[3.25rem] lg:flex-wrap sm:px-[5rem] px-1">
+                        <div className=" flex sm:flex-row flex-col items-start justify-evenly pt-[0rem]  pb-[1.175rem] box-border max-w-full gap-[3.25rem] lg:flex-wrap ">
                             <div className=" flex flex-col items-start justify-start pt-[1.181rem] px-[0rem] pb-[0rem] box-border  max-w-full lg:flex-1 mq750:min-w-full">
                                 <div className="self-stretch flex sm:flex-row flex-col items-start justify-start gap-[1.875rem] mq750:flex-wrap pl-8">
                                     <div className="relative w-[350px] flex-1 rounded-10xs bg-slateblue flex flex-col items-start justify-start pt-[2rem] pb-[8.875rem] pr-[1.25rem] pl-[2.5rem] box-border gap-[0.313rem] max-w-[350px] min-h-[232px] hover:bg-white hover:text-slateblue">

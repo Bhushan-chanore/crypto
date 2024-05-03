@@ -24,7 +24,7 @@ function Home() {
 
             {/* <p className='h-[500px]'></p> */}
 
-            <div className=' gap-4 h-[100vh] flex flex-row flex-wrap justify-between items-center px-[5.4%]'>
+            <div className=' gap-[5rem] h-[100vh] flex flex-row flex-wrap justify-between items-center px-[5.4%]'>
 
 
                 <div className="">
