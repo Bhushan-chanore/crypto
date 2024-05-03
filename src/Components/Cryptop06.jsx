@@ -419,7 +419,7 @@ function Cryptop06() {
 
 
 
-                        <div className=" p-[2rem] self-stretch flex mt-[10rem] sm:flex-row flex-col flex-wrap items-end justify-evenly gap-[2rem] max-w-full text-[1.688rem] text-white">
+                        <div className=" p-[1rem] self-stretch flex mt-[10rem] sm:flex-row flex-col flex-wrap items-end justify-evenly gap-[2rem] max-w-full text-[1.688rem] text-white">
                             {/* <div className="w-[388.7px] flex flex-col items-start justify-start pt-[0rem] px-[0rem] pb-[3.125rem] box-border min-h-[512px] max-w-full">
 <div className="self-stretch flex flex-col items-start justify-start gap-[3.438rem]"> */}
                             {
@@ -567,7 +567,7 @@ function InputCluster({ item }) {
   
     return (
       <div
-        className={`self-stretch flex flex-row items-start justify-start gap-[2rem] text-left text-[1.688rem] text-white font-montserrat mq450:flex-wrap bg-cardblue p-8 rounded-xl shadow-lg ${
+        className={`self-stretch flex flex-row items-start justify-start gap-[2rem] text-left text-[1.688rem] text-white font-montserrat mq450:flex-wrap bg-cardblue p-2 rounded-xl shadow-lg ${
           isHovered ? 'animated tada' : ''
         }`}
         onMouseEnter={handleMouseEnter}
